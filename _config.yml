@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Rithwik Nambiar"
   pronouns         : "he/him"   
-  bio              : "Master’s student in Biological Data Science with a background in molecular biology. Passionate about applying machine learning to bioinformatics challenges, especially in transcriptomics, proteomics, and single-cell analysis. Building a portfolio of open-source projects at the intersection of biology and computation"
+  bio              : "From cells to code — crafting data-driven biology"
   location         : "Kerala, India"
-  employer         : "Indian Institute of Science Education and Research, Tirupati"
+  employer         : "IISER Tirupati"
   uri              : # URL
   email            : "rithwikrar98@gmail.com" 
 
@@ -43,38 +43,12 @@ author:
   scopus           : # URL
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
   github           : "RpN1107"
-  kaggle           : "rpn1107"  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  kaggle           : "rpn1107"    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
   linkedin         : "Rithwik Nambiar"
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
   twitter          : "RpNandu1998"
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
