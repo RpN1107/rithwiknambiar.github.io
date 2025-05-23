@@ -22,7 +22,7 @@ repository               : "RpN1107/rithwiknambiar.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Rithwik Nambiar"
   pronouns         : "he/him"   
   bio              : "From cells to code — crafting data-driven biology"
