@@ -1,13 +1,11 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-## About Me
 
 I am currently pursuing a master's in Biological Data Science, with a background in molecular biology and a passion for turning complex biological questions into data-driven insights. I started my academic journey with a 5-year integrated master’s in Biology, where I gained a strong foundation in cellular and molecular biology. My experience in wet-lab research inspired me to explore computational approaches to biological discovery.
 
