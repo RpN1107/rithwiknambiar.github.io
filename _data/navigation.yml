@@ -13,21 +13,12 @@ main:
   
   - title: "Publications"
     url: /publications/
-
-  #- title: "Talks"
-  #  url: /talks/    
-
-  #- title: "Teaching"
-  #  url: /teaching/    
     
-  - title: "Portfolio"
+  - title: "Projects"
     url: /portfolio/
         
-  - title: "Blog Posts"
+  - title: "Rithwik's Blog"
     url: /year-archive/
-  
-  #- title: "CV"
-  #  url: /cv-json/
+
     
-  #- title: "Guide"
-  #  url: /markdown/
+
