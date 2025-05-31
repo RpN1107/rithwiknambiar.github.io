@@ -9,7 +9,7 @@
 
 main:
   - title: "CV"
-    url: /CV.pdf
+    url: CV.pdf
   
   - title: "Publications"
     url: /publications/
