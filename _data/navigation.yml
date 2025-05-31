@@ -2,7 +2,7 @@
   url: /about/
 
 - title: "CV"
-    url: "https://rithwiknambiar.github.io/cv.pdf"
+  url: /cv.pdf
 
 - title: "Publications"
   url: /publications/
@@ -11,4 +11,4 @@
   url: /blog/
 
 - title: "Project Portfolio"
-  url: /projects/
+  url: /portfolio/
