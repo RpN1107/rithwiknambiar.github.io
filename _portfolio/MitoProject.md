@@ -54,7 +54,8 @@ This project demonstrates how integrated multi-language pipelines can be used to
 
 ## 🔗 Links
 
-- 📁 [View Code on GitHub](https://github.com/RpN1107/MitoProject)  
+- 📁 [View Code on GitHub](https://github.com/RpN1107/MitoProject)
+- 📝 [View Report](https://github.com/RpN1107/MitoProject/blob/d3f117476b4edb2249d7958822e922494a0bed3b/Report.pdf)
 ---
 
 *Developed by Rithwik Nambiar*
