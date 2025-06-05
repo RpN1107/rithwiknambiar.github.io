@@ -47,6 +47,7 @@ You can run the app locally:
 
 ```bash
 streamlit run app.py
+```
 
 ## Links
 
