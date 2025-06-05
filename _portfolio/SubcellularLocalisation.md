@@ -1,7 +1,9 @@
 ---
 title: "Subcellular Protein Localisation Predictor"
-excerpt: "ML model to predict the subcellular localisation of proteins from their amino acid sequence <br/><img src='/images/500x300.png'>"
+excerpt: "ML model to predict the subcellular localisation of proteins from their amino acid sequence
+image: /images/Mito.png
 collection: portfolio
+permalink: /portfolio/
 ---
 
 # 🧬 Subcellular Localisation Predictor
