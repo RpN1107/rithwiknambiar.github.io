@@ -33,4 +33,4 @@ I enjoy learning guitar, staying active with fitness routines, and exploring cre
 
 ---
 
-Feel free to [contact me](/contact) or explore my [projects](/projects) and [CV](/cv).
+Feel free to [contact me](mailto:rithwikrar98@gmail.com) or explore my [projects](/projects) and [CV](/cv).
