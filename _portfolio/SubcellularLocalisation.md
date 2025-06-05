@@ -47,3 +47,11 @@ You can run the app locally:
 
 ```bash
 streamlit run app.py
+
+## Links
+
+- 📁 [View Code on GitHub](https://github.com/RpN1107/Subcellular-Localisation-Predictor)
+- 📝 [View Report](https://github.com/RpN1107/Subcellular-Localisation-Predictor/blob/7b8c21767b5c01bf100e1ca829896f615c24ad2e/Report.pdf)
+---
+
+*Developed by Rithwik Nambiar*
