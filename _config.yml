@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : &name "Rithwik P Nambiar"
 description              : &description 
 url                      : "https://rpn1107.github.io/rithwiknambiar.github.io/"
-baseurl                  : ""
+baseurl                  : "/rithwiknambiar.github.io"
 repository               : "RpN1107/rithwiknambiar.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
