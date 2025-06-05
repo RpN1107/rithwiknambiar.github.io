@@ -1,7 +1,49 @@
 ---
-title: "Portfolio item number 2"
-excerpt: "Short description of portfolio item number 2 <br/><img src='/images/500x300.png'>"
+title: "Subcellular Protein Localisation Predictor"
+excerpt: "ML model to predict the subcellular localisation of proteins from their amino acid sequence <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+# 🧬 Subcellular Localisation Predictor
+
+Predicting the destination of proteins within a cell is critical for understanding their function and role in cellular pathways. This project leverages transformer-based language models trained on protein sequences to predict the **subcellular localisation** of human proteins using only their amino acid sequences.
+
+---
+
+## 🔍 Overview
+
+This tool allows users to input protein sequences and obtain predictions on where within a eukaryotic cell the protein is most likely to localise — such as the **nucleus**, **cytoplasm**, **membrane**, or **secretory pathway**. The predictions are powered by embeddings from **ESM2**, a deep learning model trained on millions of protein sequences.
+
+---
+
+## 🧠 Key Features
+
+- **Deep Learning Embeddings**: Uses the `facebook/esm2_t6_8M_UR50D` protein language model to extract meaningful features from sequences.
+- **Classifier Performance**: Models were benchmarked for speed, memory, and accuracy. ESM2 outperformed others in overall performance.
+- **Web App**: A user-friendly Streamlit interface allows interactive sequence input and visualisation of prediction probabilities.
+
+---
+
+## 🧪 Methodology
+
+1. **Data Source**: Reviewed human proteins were downloaded from [UniProt](https://www.uniprot.org/).
+2. **Preprocessing**: Sequences and their subcellular annotations were cleaned and formatted.
+3. **Embedding Comparison**: Three embedders were evaluated on a stratified sample for efficiency and embedding quality.
+4. **Classifier Training**: A final classifier was trained using ESM2 embeddings on the full dataset.
+
+---
+
+## 📈 Results
+
+- The classifier achieves high accuracy across multiple localisation classes.
+- Visualisation using UMAP of embeddings shows clustering by localisation class.
+- The Streamlit app enables real-time prediction and exploration.
+
+---
+
+## 🚀 Try It
+
+You can run the app locally:
+
+```bash
+streamlit run app.py
