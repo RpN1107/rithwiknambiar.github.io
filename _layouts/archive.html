@@ -12,6 +12,10 @@ layout: default
   {% endunless %}
 {% endif %}
 
+{% if post.image %}
+  <img src="{{ post.image }}" alt="Thumbnail for {{ post.title }}" class="post-thumbnail" />
+{% endif %}
+
 <div id="main" role="main">
   {% include sidebar.html %}
 
