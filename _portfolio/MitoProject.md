@@ -1,10 +1,11 @@
 ---
+title = "Mito Project
 excerpt: "ML Classifier to identify mitochondria gene expression changes in scRNA-seq data<br/><img src='/rithwiknambiar.github.io/images/Mito.png'>"
 collection: portfolio
 permalink: /portfolio/mito-project/
 ---
 
-# 🧬 MITOPROJECT — A Machine Learning Pipeline for Mitochondrial Dysregulation in Single Cells
+# 🧬 A Machine Learning Pipeline for Mitochondrial Dysregulation in Single Cells
 
 **Summary**  
 MITOPROJECT is a bioinformatics pipeline designed to identify mitochondrial gene expression changes in single-cell RNA-seq data under inflammatory conditions. Using a combination of R-based preprocessing, machine learning classification in Python, and Gene Ontology (GO) enrichment analysis, this project uncovers mitochondrial dysfunction signatures in LPS-treated peripheral blood mononuclear cells (PBMCs).
