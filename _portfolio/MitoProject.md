@@ -1,6 +1,6 @@
 ---
 title: "Mito Project"
-excerpt: "ML Classifier to identify mitochondria gene expression changes in scRNA-seq data<br/><img src='/images/Mito.png'>"
+excerpt: "ML Classifier to identify mitochondria gene expression changes in scRNA-seq data<br/><img src='/rithwiknambiar.github.io/images/Mito.png'>"
 collection: portfolio
 permalink: /portfolio/mito-project/
 ---
