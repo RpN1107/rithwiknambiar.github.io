@@ -1,11 +1,11 @@
 ---
 title: "Subcellular Protein Localisation Predictor"
-excerpt: "ML model to predict the subcellular localisation of proteins from their amino acid sequence<br/><img src='/images/Mito.png'>"
+excerpt: "ML model to predict the subcellular localisation of proteins from their amino acid sequence<br/><img src='/rithwiknambiar.github.io/images/DL.png'>"
 collection: portfolio
 permalink: /portfolio/sub-loc-pred/
 ---
 
-# 🧬 Subcellular Localisation Predictor
+# 🧬 A DL-based tool to predict the subcellular localisation of proteins from their amino acid sequence
 
 Predicting the destination of proteins within a cell is critical for understanding their function and role in cellular pathways. This project leverages transformer-based language models trained on protein sequences to predict the **subcellular localisation** of human proteins using only their amino acid sequences.
 
