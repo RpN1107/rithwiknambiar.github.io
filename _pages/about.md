@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently pursuing a master's in Biological Data Science, with a background in molecular biology and a passion for turning complex biological questions into data-driven insights. I started my academic journey with a 5-year integrated master’s in Biology, where I gained a strong foundation in cellular and molecular biology. My experience in wet-lab research inspired me to explore computational approaches to biological discovery.
+I am currently pursuing a master's in Biological Data Science, with a background in molecular biology and a passion for turning complex biological questions into data-driven insights. I started my academic journey with a 5-year integrated master’s in Biology from the Indian Insitute of Science Education and Research (IISER) Thiruvananthapuram, where I gained a strong foundation in cellular and molecular biology. My experience in wet-lab research inspired me to explore computational approaches to biological discovery.
 
 ## Why Bioinformatics?
 
@@ -15,21 +15,23 @@ During my research experience in molecular biology, I was drawn to the potential
 
 ## Research Interests
 
-- **Single-cell transcriptomics** – analyzing cell-to-cell variation and mitochondrial function
-- **Machine learning in biology** – classification, clustering, and deep learning applications
-- **Multi-omics integration** – combining transcriptomics, proteomics, and metabolomics
-- **Subcellular localization** – predicting and visualizing protein distributions
+- **Mitochondrial Biology** – Exploring the metabolic hub and the powerhouse of the cell
+- **Machine learning in biology** – Apply machine learning and deep learning to understand complex biological systems
+- **Multi-omics integration** – Combining genomics, transcriptomics, proteomics, and metabolomics
 
 ## Skills & Tools
 
-- **Languages**: Python, R, Bash
-- **Libraries/Packages**: Seurat, Monocle3, pandas, scikit-learn, TensorFlow
-- **Tools**: Google Colab, Chimera, VMD, Pymol, Gromacs, GitHub, Excel, ImageJ
-- **Techniques**: Data cleaning, exploratory analysis, clustering, dimensionality reduction
+- **Experimental**: Molecular Cloning, Western Blotting, Protein Expression and Purification, Immunofluorescence,
+Fluorescence Microscopy, DNA/RNA isolation, Yeast Genetics, Yeast Cell Culture, Mammalian Cell Culture,
+Affinity Purification
+- **Languages**: R , Python , Bash , MATLAB , Perl
+- **Computational skills**: Machine Learning, Deep Learning, Flux Balance Analysis, Dynamic Modelling,
+Constraint-Based Modelling, Bulk and scRNA Seq, Genome-Wide Association Studies
+- **Softwares**: Colab, RStudio, Cytoscape, GraphPad, Origin, ImageLab, QuantityOne, ImageJ
 
 ## Outside the Lab
 
-I enjoy learning guitar, staying active with fitness routines, and exploring creative ways to communicate science. I’m currently working on building a portfolio of bioinformatics projects and showcasing them through this website.
+I enjoy singing, reading whatever I can get my hands on, getting upto speed with what is happening in every sport there is, playing football and exploring creative ways to communicate science. 
 
 ---
 
