@@ -31,7 +31,7 @@ I am currently pursuing a master's in Biological Data Science, with a background
   <p>
     <strong>Skills & Tools</strong><br>
     <strong>Experimental:</strong> Molecular Cloning, Western Blotting, Protein Expression and Purification, Immunofluorescence, Fluorescence Microscopy, DNA/RNA isolation, Yeast Genetics, Yeast Cell Culture, Mammalian Cell Culture, Affinity Purification<br><br>
-    <strong>Languages:</strong> R, Python, Bash, MATLAB, Perl<br>
+    <strong>Languages:</strong> R, Python, Bash, MATLAB, Perl<br><br>
     <strong>Computational skills:</strong> Machine Learning, Deep Learning, Flux Balance Analysis, Dynamic Modelling, Constraint-Based Modelling, Bulk and scRNA Seq, Genome-Wide Association Studies<br>
     <strong>Softwares:</strong> Colab, RStudio, Cytoscape, GraphPad, Origin, ImageLab, QuantityOne, ImageJ
   </p>
