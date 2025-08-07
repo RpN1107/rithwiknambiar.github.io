@@ -45,4 +45,4 @@ I enjoy singing, reading whatever I can get my hands on, getting up to speed wit
 
 ---
 
-Feel free to [contact me](mailto:rithwikrar98@gmail.com) or explore my [projects](/projects) and [CV](/cv).
+Feel free to [contact me](mailto:rithwikrar98@gmail.com) or explore my [projects](/portfolio) and [CV](/CV.pdf).
