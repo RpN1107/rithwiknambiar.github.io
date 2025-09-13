@@ -1,8 +1,8 @@
 ---
 title: "ProtDEX"
 excerpt: "An interactive Shiny app for differential protein expression analysis in proteomics data<br/><img src='/rithwiknambiar.github.io/images/protdex.png'>"
-collection: portfolio
-permalink: /portfolio/protdex/
+collection: projects
+permalink: /projects/protdex/
 ---
 
 # 🧬 ProtDEX: A Shiny App for Differential Protein Expression
@@ -63,7 +63,7 @@ ProtDEX streamlines proteomics analysis into a single pipeline, removing the nee
 
 ## 🔗 Links
 
-- 📁 [View Code on GitHub](https://github.com/RpN1107/ProtDEX)  
+- 📁 [View Code on GitHub](https://github.com/RpN1107/ProtDEX_ShinyApp)  
 - 🧪 [Test Dataset](/tests/test_data.csv)  
 
 ---
