@@ -1,8 +1,8 @@
 ---
 title: "MitoProject"
 excerpt: "ML Classifier to identify mitochondria gene expression changes in scRNA-seq data<br/><img src='/rithwiknambiar.github.io/images/Mito.png'>"
-collection: portfolio
-permalink: /portfolio/mito-project/
+collection: projects
+permalink: /projects/mito-project/
 ---
 
 # 🧬 A Machine Learning Pipeline for Mitochondrial Dysregulation in Single Cells
