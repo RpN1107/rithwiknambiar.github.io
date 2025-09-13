@@ -1,7 +1,7 @@
 ---
 title: "ProtDEX"
 excerpt: "An interactive Shiny app for differential protein expression analysis in proteomics data<br/><img src='/rithwiknambiar.github.io/images/protdex.png'>"
-collection: portfolio
+collection: projects
 permalink: /projects/protdex/
 ---
 
