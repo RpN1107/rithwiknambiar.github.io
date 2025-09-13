@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently pursuing a master's in Biological Data Science, with a background in molecular biology and a passion for turning complex biological questions into data-driven insights. I started my academic journey with a 5-year integrated master’s in Biology from the Indian Institute of Science Education and Research (IISER) Thiruvananthapuram, where I gained a strong foundation in cellular and molecular biology. My experience in wet-lab research inspired me to explore computational approaches to biological discovery.
+I am currently pursuing a master's in Biological Data Science from the Indian Institute of Science Education and Research (IISER) Tirupati , with a background in molecular biology and a passion for turning complex biological questions into data-driven insights. I started my academic journey with a 5-year integrated master’s in Biology from IISER Thiruvananthapuram, where I gained a strong foundation in cellular and molecular biology. My experience in wet-lab research inspired me to explore computational approaches to biological discovery.
 
 <div style="display: flex; align-items: center; margin-top: 20px;">
   <p>
@@ -45,4 +45,4 @@ I enjoy singing, reading whatever I can get my hands on, getting up to speed wit
 
 ---
 
-Feel free to [contact me](mailto:rithwikrar98@gmail.com) or explore my [projects](/rithwiknambiar.github.io/portfolio/) and [CV](/rithwiknambiar.github.io/CV.pdf).
+Feel free to [contact me](mailto:rithwikrar98@gmail.com) or explore my [projects](/rithwiknambiar.github.io/projects/) and [CV](/rithwiknambiar.github.io/CV.pdf).
