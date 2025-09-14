@@ -64,7 +64,7 @@ ProtDEX streamlines proteomics analysis into a single pipeline, removing the nee
 ## 🔗 Links
 
 - 📁 [View Code on GitHub](https://github.com/RpN1107/ProtDEX_ShinyApp)  
-- 🧪 [Test Dataset](/tests/test_data.csv)  
+- 🧪 [Test Dataset](/TestData/Test.csv)  
 
 ---
 
