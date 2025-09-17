@@ -56,3 +56,16 @@
 .project-card:hover {
   transform: translateY(-5px);
 }
+
+.scholar-button {
+  background: #4285F4;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.scholar-button:hover {
+  background: #2a64d8;
+}
