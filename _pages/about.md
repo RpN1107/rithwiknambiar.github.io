@@ -20,9 +20,10 @@ I am currently pursuing a master's in Biological Data Science from the Indian In
   <p style="margin-right: 20px;">
     <strong>Research Interests</strong><br>
     <ul>
-      <li><strong>Mitochondrial Biology</strong> – Exploring the metabolic hub and the powerhouse of the cell</li>
-      <li><strong>Machine learning in biology</strong> – Apply machine learning and deep learning to understand complex biological systems</li>
-      <li><strong>Multi-omics integration</strong> – Combining genomics, transcriptomics, proteomics, and metabolomics</li>
+      <li><strong>Mitochondrial Biology</strong> – Investigating mitochondrial dynamics, function, and their role in cellular homeostasis</li>
+      <li><strong>Structural Bioinformatics & Molecular Dynamics</strong> – Using molecular dynamics simulations and computational approaches to study protein structure, dynamics, and interactions</li>
+      <li><strong>Machine Learning in Biology</strong> – Applying machine learning and deep learning to unravel complex biological systems</li>
+      <li><strong>Multi-Omics Integration</strong> – Integrating genomics, transcriptomics, proteomics, and metabolomics to gain holistic insights into cellular function</li>
     </ul>
   </p>
 </div>
@@ -31,9 +32,9 @@ I am currently pursuing a master's in Biological Data Science from the Indian In
   <p>
     <strong>Skills & Tools</strong><br>
     <strong>Experimental:</strong> Molecular Cloning, Western Blotting, Protein Expression and Purification, Immunofluorescence, Fluorescence Microscopy, DNA/RNA isolation, Yeast Genetics, Yeast Cell Culture, Mammalian Cell Culture, Affinity Purification<br><br>
-    <strong>Languages:</strong> R, Python, Bash, MATLAB, Perl<br><br>
-    <strong>Computational skills:</strong> Machine Learning, Deep Learning, Flux Balance Analysis, Dynamic Modelling, Constraint-Based Modelling, Bulk and scRNA Seq, Genome-Wide Association Studies<br>
-    <strong>Softwares:</strong> Colab, RStudio, Cytoscape, GraphPad, Origin, ImageLab, QuantityOne, ImageJ
+    <strong>Languages:</strong> R, Python, Shell , MATLAB, Perl<br><br>
+    <strong>Computational skills:</strong> Machine Learning, Deep Learning, Flux Balance Analysis, Dynamic Modelling, Constraint-Based Modelling, Bulk and scRNA Seq analysis, Proteomics and metabolomics pipelines<br>
+    <strong>Softwares:</strong> Colab, RStudio, Chimera, Pymol, GROMACS, Cytoscape, GraphPad, ImageJ (FIJI), QuantityOne
   </p>
 </div>
 
