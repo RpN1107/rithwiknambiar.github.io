@@ -35,16 +35,16 @@
   border-radius: 16px;
   margin: 1.5rem 0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  min-height: 300px; /* make sure the card is tall enough */
+  min-height: 350px;       /* ensures card height */
+  display: flex;
+  flex-direction: column;
 }
 
 .pub-card-bg {
   position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
+  inset: 0;                 /* top:0; right:0; bottom:0; left:0 */
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   filter: blur(10px) brightness(0.6);
   transition: filter 0.4s ease;
   z-index: 0;
@@ -53,37 +53,21 @@
 .pub-card-bg::after {
   content: "";
   position: absolute;
-  top:0; left:0;
-  width:100%; height:100%;
-  background: rgba(0,0,0,0.3); /* semi-transparent overlay for text */
+  inset: 0;
+  background: rgba(0,0,0,0.3); /* overlay for readability */
   pointer-events: none;
 }
 
-.pub-card-thumb {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  width: 80px;
-  height: 80px;
-  overflow: hidden;
-  border-radius: 8px;
-  z-index: 2;
-}
-
-.pub-card-thumb img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .pub-card-link {
-  display: block;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content to bottom */
+  height: 100%;
   color: white;
   text-decoration: none;
-  padding: 2rem;
-  height: 100%;
+  position: relative;
   z-index: 2;
+  padding: 2rem;
 }
 
 .pub-card-content {
@@ -119,6 +103,23 @@
 
 .pub-card-button:hover {
   background-color: rgba(255,255,255,0.4);
+}
+
+.pub-card-thumb {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 8px;
+  z-index: 2;
+}
+
+.pub-card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .pub-card:hover .pub-card-bg {
