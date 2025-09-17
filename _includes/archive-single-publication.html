@@ -1,67 +1,57 @@
 {% include base_path %}
 
-<div class="pub-card-blur" 
-     style="background-image: url('{{ site.baseurl }}{{ post.bg_image }}');">
-  <a href="{% if post.paperurl %}{{ post.paperurl }}{% else %}{{ site.baseurl }}{{ post.url }}{% endif %}" 
-     rel="permalink" target="_blank">
-    <div class="pub-card-overlay">
-      <div class="pub-card-content">
-        <h3 class="pub-card-title">{{ post.title }}</h3>
-        {% if post.venue %}
-          <p class="pub-card-venue"><em>{{ post.venue }}</em></p>
-        {% endif %}
-        {% if post.excerpt %}
-          <p class="pub-card-excerpt">{{ post.excerpt }}</p>
-        {% endif %}
-      </div>
+<div class="pub-card">
+  <a href="{{ base_path }}{{ post.url }}" class="pub-card-link">
+    <div class="pub-card-bg" style="background-image: url('{{ post.bg_image | default: '/images/default-bg.jpg' }}');"></div>
+    <div class="pub-card-content">
+      <h3>{{ post.title }}</h3>
+      {% if post.excerpt %}
+        <p>{{ post.excerpt }}</p>
+      {% endif %}
+      {% if post.venue %}
+        <p><em>{{ post.venue }}</em></p>
+      {% endif %}
     </div>
   </a>
 </div>
 
 <style>
-.pub-card-blur {
+.pub-card {
   position: relative;
-  border-radius: 14px;
   overflow: hidden;
-  margin: 20px 0;
-  height: 220px;
+  border-radius: 16px;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.pub-card-bg {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
   background-size: cover;
   background-position: center;
-  filter: blur(4px);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.4s ease;
+  filter: blur(10px) brightness(0.6);
+  transition: filter 0.4s ease;
 }
-.pub-card-blur:hover {
-  transform: scale(1.03);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
-  filter: blur(0);
-}
-.pub-card-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.45);
+.pub-card-link {
+  display: block;
+  position: relative;
   color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 15px;
+  text-decoration: none;
+  padding: 2rem;
+  z-index: 1;
 }
-.pub-card-title {
-  font-size: 1.4em;
-  margin: 0 0 8px;
-  transition: font-size 0.2s ease;
+.pub-card-content h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
 }
-.pub-card-blur:hover .pub-card-title {
-  font-size: 1.6em;
+.pub-card-content p {
+  margin: 0.3rem 0;
 }
-.pub-card-venue {
-  font-size: 1em;
-  opacity: 0.85;
+.pub-card:hover .pub-card-bg {
+  filter: blur(0px) brightness(1);
 }
-.pub-card-excerpt {
-  font-size: 0.9em;
-  opacity: 0.9;
-  max-width: 85%;
+.pub-card:hover h3 {
+  transform: scale(1.1);
 }
 </style>
