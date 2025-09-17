@@ -1,16 +1,11 @@
 {% include base_path %}
 
-<div class="project-card" 
+<div class="project-card-banner" 
      style="background-image: url('{{ site.baseurl }}{{ post.bg_image }}');">
   <a href="{{ site.baseurl }}{{ post.url }}" rel="permalink">
     <div class="project-card-overlay">
-      {% if post.image %}
-        <div class="project-card-thumb">
-          <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
-        </div>
-      {% endif %}
       <div class="project-card-content">
-        <h3 class="project-card-title">{{ post.title }}</h3>
+        <h2 class="project-card-title">{{ post.title }}</h2>
         {% if post.excerpt %}
           <p class="project-card-excerpt">{{ post.excerpt }}</p>
         {% endif %}
@@ -20,7 +15,7 @@
 </div>
 
 <style>
-.project-card {
+.project-card-banner {
   position: relative;
   border-radius: 14px;
   overflow: hidden;
@@ -30,39 +25,33 @@
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.project-card:hover {
+.project-card-banner:hover {
   transform: scale(1.03);
   box-shadow: 0 10px 25px rgba(0,0,0,0.25);
 }
 .project-card-overlay {
-  background: rgba(0,0,0,0.45);
+  background: rgba(0,0,0,0.45); /* darken for readability */
   color: white;
   height: 100%;
+  width: 100%;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 20px;
-  gap: 20px;
-}
-.project-card-thumb img {
-  width: 80px;
-  height: 80px;
-  border-radius: 10px;
-  object-fit: cover;
-  border: 2px solid white;
-}
-.project-card-content {
-  flex: 1;
 }
 .project-card-title {
-  font-size: 1.4em;
+  font-size: 1.8em;
   margin: 0 0 10px;
   transition: font-size 0.2s ease;
 }
-.project-card:hover .project-card-title {
-  font-size: 1.6em;
+.project-card-banner:hover .project-card-title {
+  font-size: 2em;
 }
 .project-card-excerpt {
-  font-size: 0.95em;
-  opacity: 0.85;
+  font-size: 1em;
+  opacity: 0.9;
+  max-width: 80%;
 }
 </style>
