@@ -1,47 +1,68 @@
 {% include base_path %}
 
-<div class="project-card">
+<div class="project-card" 
+     style="background-image: url('{{ site.baseurl }}{{ post.bg_image }}');">
   <a href="{{ site.baseurl }}{{ post.url }}" rel="permalink">
-    {% if post.image %}
-      <div class="project-card-image">
-        <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
-      </div>
-    {% endif %}
-    <div class="project-card-content">
-      <h3 class="project-card-title">{{ post.title }}</h3>
-      {% if post.excerpt %}
-        <p class="project-card-excerpt">{{ post.excerpt }}</p>
+    <div class="project-card-overlay">
+      {% if post.image %}
+        <div class="project-card-thumb">
+          <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
+        </div>
       {% endif %}
+      <div class="project-card-content">
+        <h3 class="project-card-title">{{ post.title }}</h3>
+        {% if post.excerpt %}
+          <p class="project-card-excerpt">{{ post.excerpt }}</p>
+        {% endif %}
+      </div>
     </div>
   </a>
 </div>
 
 <style>
 .project-card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  position: relative;
+  border-radius: 14px;
   overflow: hidden;
-  margin: 10px 0;
-  transition: transform 0.2s, box-shadow 0.2s;
+  margin: 20px 0;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
 }
-.project-card-image img {
-  width: 100%;
-  height: auto;
-  display: block;
+.project-card-overlay {
+  background: rgba(0,0,0,0.45);
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+.project-card-thumb img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 2px solid white;
 }
 .project-card-content {
-  padding: 15px;
+  flex: 1;
 }
 .project-card-title {
+  font-size: 1.4em;
   margin: 0 0 10px;
-  font-size: 1.25em;
+  transition: font-size 0.2s ease;
+}
+.project-card:hover .project-card-title {
+  font-size: 1.6em;
 }
 .project-card-excerpt {
-  color: #555;
   font-size: 0.95em;
+  opacity: 0.85;
 }
 </style>
