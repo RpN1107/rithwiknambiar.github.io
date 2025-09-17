@@ -1,7 +1,8 @@
 ---
 title: "Subcellular Protein Localisation Predictor"
 excerpt: "Predict the subcellular localisation of proteins from amino acid sequences"
-image: "/images/Projects/DL.png"
+image: "/images/Projects/DL_logo.png"
+bg_image: "/images/Projects/DL.png"
 collection: projects
 permalink: /projects/sub-loc-pred/
 ---
