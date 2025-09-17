@@ -2,7 +2,7 @@
 
 <div class="pub-card">
   <a href="{{ base_path }}{{ post.url }}" class="pub-card-link">
-    <!-- Full card background -->
+    <!-- Background image (blurred by default) -->
     <div class="pub-card-bg" style="background-image: url('{{ post.bg_image | default: '/rithwiknambiar.github.io/images/default-bg.jpg' }}');"></div>
 
     <!-- Optional thumbnail -->
@@ -35,14 +35,14 @@
   border-radius: 16px;
   margin: 1.5rem 0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  min-height: 350px;       /* ensures card height */
+  min-height: 350px;
   display: flex;
   flex-direction: column;
 }
 
 .pub-card-bg {
   position: absolute;
-  inset: 0;                 /* top:0; right:0; bottom:0; left:0 */
+  inset: 0;
   background-size: cover;
   background-position: center center;
   filter: blur(10px) brightness(0.6);
@@ -54,16 +54,16 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.3); /* overlay for readability */
+  background: rgba(0,0,0,0.1); /* subtle overlay for better contrast */
   pointer-events: none;
 }
 
 .pub-card-link {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; /* pushes content to bottom */
+  justify-content: flex-end;
   height: 100%;
-  color: white;
+  color: black;
   text-decoration: none;
   position: relative;
   z-index: 2;
@@ -73,19 +73,16 @@
 .pub-card-content {
   position: relative;
   z-index: 3;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  background: rgba(255,255,255,0.8); /* white overlay behind text */
+  padding: 1rem;
+  border-radius: 8px;
   transition: transform 0.3s ease;
 }
 
-.pub-card:hover .pub-card-content {
-  transform: scale(1.05); /* hover scales all content */
-}
-
-.pub-card-content h3 {
-  margin: 0 0 0.5rem;
-}
-
+.pub-card-content h3,
 .pub-card-content p {
+  color: black;
+  text-shadow: none;
   margin: 0.3rem 0;
 }
 
@@ -93,8 +90,8 @@
   display: inline-block;
   margin-top: 0.5rem;
   padding: 0.4rem 0.8rem;
-  background-color: rgba(255,255,255,0.2);
-  color: white;
+  background-color: #eee;
+  color: black;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
@@ -102,7 +99,7 @@
 }
 
 .pub-card-button:hover {
-  background-color: rgba(255,255,255,0.4);
+  background-color: #ddd;
 }
 
 .pub-card-thumb {
@@ -124,5 +121,9 @@
 
 .pub-card:hover .pub-card-bg {
   filter: blur(0px) brightness(1);
+}
+
+.pub-card:hover .pub-card-content {
+  transform: scale(1.05);
 }
 </style>
