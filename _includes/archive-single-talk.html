@@ -1,42 +1,71 @@
 {% include base_path %}
 
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
-
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post.title %}
-{% endif %}
-
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+<div class="project-card-blur" 
+     style="background-image: url('{{ site.baseurl }}{{ post.bg_image }}');">
+  <a href="{{ site.baseurl }}{{ post.url }}" rel="permalink">
+    <div class="project-card-overlay">
+      {% if post.image %}
+        <div class="project-card-thumb">
+          <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
+        </div>
       {% endif %}
-    </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
-  </article>
+      <div class="project-card-content">
+        <h3 class="project-card-title">{{ post.title }}</h3>
+        {% if post.excerpt %}
+          <p class="project-card-excerpt">{{ post.excerpt }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </a>
 </div>
+
+<style>
+.project-card-blur {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  margin: 20px 0;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.4s ease;
+}
+.project-card-blur:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  filter: blur(0);
+}
+.project-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+.project-card-thumb img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 2px solid white;
+}
+.project-card-content {
+  flex: 1;
+}
+.project-card-title {
+  font-size: 1.4em;
+  margin: 0 0 10px;
+  transition: font-size 0.2s ease;
+}
+.project-card-blur:hover .project-card-title {
+  font-size: 1.6em;
+}
+.project-card-excerpt {
+  font-size: 0.95em;
+  opacity: 0.85;
+}
+</style>
