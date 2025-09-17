@@ -1,0 +1,67 @@
+{% include base_path %}
+
+<div class="pub-card-blur" 
+     style="background-image: url('{{ site.baseurl }}{{ post.bg_image }}');">
+  <a href="{% if post.paperurl %}{{ post.paperurl }}{% else %}{{ site.baseurl }}{{ post.url }}{% endif %}" 
+     rel="permalink" target="_blank">
+    <div class="pub-card-overlay">
+      <div class="pub-card-content">
+        <h3 class="pub-card-title">{{ post.title }}</h3>
+        {% if post.venue %}
+          <p class="pub-card-venue"><em>{{ post.venue }}</em></p>
+        {% endif %}
+        {% if post.excerpt %}
+          <p class="pub-card-excerpt">{{ post.excerpt }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </a>
+</div>
+
+<style>
+.pub-card-blur {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  margin: 20px 0;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.4s ease;
+}
+.pub-card-blur:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  filter: blur(0);
+}
+.pub-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+.pub-card-title {
+  font-size: 1.4em;
+  margin: 0 0 8px;
+  transition: font-size 0.2s ease;
+}
+.pub-card-blur:hover .pub-card-title {
+  font-size: 1.6em;
+}
+.pub-card-venue {
+  font-size: 1em;
+  opacity: 0.85;
+}
+.pub-card-excerpt {
+  font-size: 0.9em;
+  opacity: 0.9;
+  max-width: 85%;
+}
+</style>
