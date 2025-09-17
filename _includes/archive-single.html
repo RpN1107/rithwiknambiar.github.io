@@ -1,7 +1,9 @@
 {% include base_path %}
 
-<div class="project-card-blur" 
-     style="background-image: url('{{ site.baseurl }}{{ post.bg_image }}');">
+<div class="project-card">
+  <div class="project-card-bg" 
+       style="background-image: url('{{ site.baseurl }}{{ post.bg_image }}');">
+  </div>
   <a href="{{ site.baseurl }}{{ post.url }}" rel="permalink">
     <div class="project-card-overlay">
       {% if post.image %}
@@ -20,52 +22,67 @@
 </div>
 
 <style>
-.project-card-blur {
+.project-card {
   position: relative;
   border-radius: 14px;
   overflow: hidden;
   margin: 20px 0;
   height: 250px;
+}
+
+.project-card-bg {
+  position: absolute;
+  inset: 0;
   background-size: cover;
   background-position: center;
-  filter: blur(4px);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.4s ease;
+  filter: blur(4px); /* Reduce or remove blur here */
+  transition: transform 0.3s ease, filter 0.4s ease;
 }
-.project-card-blur:hover {
+
+.project-card:hover .project-card-bg {
   transform: scale(1.03);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
-  filter: blur(0);
+  filter: blur(2px); /* Optional: less blur on hover */
 }
+
 .project-card-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.45);
-  color: white;
+  background: rgba(255,255,255,0.6); /* Slight white overlay for text readability */
+  color: black; /* Make text black */
   display: flex;
   align-items: center;
   padding: 20px;
   gap: 20px;
+  z-index: 1;
 }
+
 .project-card-thumb img {
   width: 80px;
   height: 80px;
   border-radius: 10px;
   object-fit: cover;
-  border: 2px solid white;
+  border: 2px solid black;
 }
+
 .project-card-content {
   flex: 1;
 }
+
 .project-card-title {
   font-size: 1.4em;
   margin: 0 0 10px;
+  color: black;
   transition: font-size 0.2s ease;
 }
+
 .project-card-blur:hover .project-card-title {
   font-size: 1.6em;
 }
+
 .project-card-excerpt {
   font-size: 0.95em;
   opacity: 0.85;
+  color: black;
 }
 </style>
+
