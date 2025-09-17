@@ -1,20 +1,47 @@
 {% include base_path %}
 
-<div class="project-card" style="background-image: url('{{ post.bg_image | default: '/assets/images/default-bg.jpg' }}');">
-  <a href="{{ post.url }}">
-    <!-- Project Image -->
-    <div class="project-image" style="background-image: url('{{ post.image | default: '/assets/images/default-project.jpg' }}');"></div>
-
-    <!-- Project Info -->
-    <div class="project-info">
-      <h2>{{ post.title }}</h2>
+<div class="project-card">
+  <a href="{{ site.baseurl }}{{ post.url }}" rel="permalink">
+    {% if post.image %}
+      <div class="project-card-image">
+        <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
+      </div>
+    {% endif %}
+    <div class="project-card-content">
+      <h3 class="project-card-title">{{ post.title }}</h3>
       {% if post.excerpt %}
-        <p>{{ post.excerpt | markdownify | strip_html | truncate: 120 }}</p>
-      {% endif %}
-
-      {% if post.link %}
-        <p><a href="{{ post.link }}" target="_blank">Visit Project</a></p>
+        <p class="project-card-excerpt">{{ post.excerpt }}</p>
       {% endif %}
     </div>
   </a>
 </div>
+
+<style>
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px 0;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.project-card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.project-card-content {
+  padding: 15px;
+}
+.project-card-title {
+  margin: 0 0 10px;
+  font-size: 1.25em;
+}
+.project-card-excerpt {
+  color: #555;
+  font-size: 0.95em;
+}
+</style>
