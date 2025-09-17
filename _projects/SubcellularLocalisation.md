@@ -78,7 +78,7 @@ streamlit run app.py
 ## 📂 Links
 
 * 📁 [GitHub Repository](https://github.com/RpN1107/Subcellular-Localisation-Predictor)
-* 📝 [Project Report (PDF)](https://github.com/RpN1107/Subcellular-Localisation-Predictor/blob/7b8c21767b5c01bf100e1ca829896f615c24ad2e/Report.pdf)
+* 📝 [Project Report (PDF)](https://github.com/RpN1107/Subcellular-Localisation-Predictor/blob/main/notebooks/Report.pdf)
 
 ---
 
