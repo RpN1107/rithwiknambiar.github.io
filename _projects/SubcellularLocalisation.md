@@ -1,59 +1,85 @@
 ---
+
 title: "Subcellular Protein Localisation Predictor"
-excerpt: "ML model to predict the subcellular localisation of proteins from their amino acid sequence<br/><img src='/rithwiknambiar.github.io/images/DL.png'>"
+excerpt: "Predict the subcellular localisation of proteins from amino acid sequences<br/><img src='/rithwiknambiar.github.io/images/DL.png'>"
 collection: projects
 permalink: /projects/sub-loc-pred/
----
+----------------------------------
 
-# 🧬 A DL-based tool to predict the subcellular localisation of proteins from their amino acid sequence
+# 🧬 Subcellular Protein Localisation Predictor
 
-Predicting the destination of proteins within a cell is critical for understanding their function and role in cellular pathways. This project leverages transformer-based language models trained on protein sequences to predict the **subcellular localisation** of human proteins using only their amino acid sequences.
+A deep learning-based tool to predict the **subcellular localisation** of human proteins using only their amino acid sequences. Understanding where a protein localises within a cell is critical for studying its function and role in cellular pathways.
 
 ---
 
 ## 🔍 Overview
 
-This tool allows users to input protein sequences and obtain predictions on where within a eukaryotic cell the protein is most likely to localise — such as the **nucleus**, **cytoplasm**, **membrane**, or **secretory pathway**. The predictions are powered by embeddings from **ESM2**, a deep learning model trained on millions of protein sequences.
+This tool allows users to input protein sequences and obtain predictions for **nucleus, cytoplasm, membrane, secretory pathway**, and more. Predictions are powered by **ESM2 embeddings**, a transformer-based protein language model trained on millions of sequences.
+
+The project includes:
+
+* Preprocessing of protein sequences
+* Generation of embeddings using ESM2
+* Training a multi-label neural network classifier
+* A **Streamlit web app** for real-time predictions
 
 ---
 
 ## 🧠 Key Features
 
-- **Deep Learning Embeddings**: Uses the `facebook/esm2_t6_8M_UR50D` protein language model to extract meaningful features from sequences.
-- **Classifier Performance**: Models were benchmarked for speed, memory, and accuracy. ESM2 outperformed others in overall performance.
-- **Web App**: A user-friendly Streamlit interface allows interactive sequence input and visualisation of prediction probabilities.
+* **Deep Learning Embeddings**: Extracts meaningful sequence features using `facebook/esm2_t6_8M_UR50D`.
+* **Multi-Label Classification**: Predicts multiple subcellular compartments per protein.
+* **Performance Benchmarked**: Model evaluated for speed, memory, and classification accuracy.
+* **Interactive Web App**: Upload FASTA sequences, view probabilities and binary predictions, and download CSV results.
 
 ---
 
 ## 🧪 Methodology
 
-1. **Data Source**: Reviewed human proteins were downloaded from [UniProt](https://www.uniprot.org/).
-2. **Preprocessing**: Sequences and their subcellular annotations were cleaned and formatted.
-3. **Embedding Comparison**: Three embedders were evaluated on a stratified sample for efficiency and embedding quality.
-4. **Classifier Training**: A final classifier was trained using ESM2 embeddings on the full dataset.
+1. **Data Collection**: Human protein sequences and annotations downloaded from [UniProt](https://www.uniprot.org/).
+2. **Preprocessing**: Sequences cleaned, formatted, and split for training and validation.
+3. **Embedding Generation**: Protein sequences converted into numerical embeddings using ESM2.
+4. **Model Training**: Multi-label classifier trained on embeddings with careful handling of class imbalance.
+5. **Evaluation**: Metrics such as F1-score, AUROC, and precision-recall curves computed.
 
 ---
 
 ## 📈 Results
 
-- The classifier achieves high accuracy across multiple localisation classes.
-- Visualisation using UMAP of embeddings shows clustering by localisation class.
-- The Streamlit app enables real-time prediction and exploration.
+* **High Accuracy**: Model performs well across multiple subcellular compartments.
+* **UMAP Visualization**: Embeddings cluster according to localisation class.
+* **Real-Time Predictions**: Streamlit app allows interactive exploration and CSV export.
 
 ---
 
 ## 🚀 Try It
 
-You can run the app locally:
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/protein_localisation_app.git
+cd protein_localisation_app
+```
+
+2. **Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run the Streamlit app**
 
 ```bash
 streamlit run app.py
 ```
 
-## Links
+---
 
-- 📁 [View Code on GitHub](https://github.com/RpN1107/Subcellular-Localisation-Predictor)
-- 📝 [View Report](https://github.com/RpN1107/Subcellular-Localisation-Predictor/blob/7b8c21767b5c01bf100e1ca829896f615c24ad2e/Report.pdf)
+## 📂 Links
+
+* 📁 [GitHub Repository](https://github.com/RpN1107/Subcellular-Localisation-Predictor)
+* 📝 [Project Report (PDF)](https://github.com/RpN1107/Subcellular-Localisation-Predictor/blob/7b8c21767b5c01bf100e1ca829896f615c24ad2e/Report.pdf)
+
 ---
 
 *Developed by Rithwik Nambiar*
