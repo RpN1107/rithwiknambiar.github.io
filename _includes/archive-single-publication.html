@@ -2,8 +2,8 @@
 
 <div class="pub-card">
   <a href="{{ base_path }}{{ post.url }}" class="pub-card-link">
-    <!-- Background image with blur -->
-    <div class="pub-card-bg" style="background-image: url('{{ post.bg_image | default: '/images/default-bg.jpg' }}');"></div>
+    <!-- Full card background -->
+    <div class="pub-card-bg" style="background-image: url('{{ post.bg_image | default: '/rithwiknambiar.github.io/images/default-bg.jpg' }}');"></div>
 
     <!-- Optional thumbnail -->
     {% if post.image %}
@@ -12,6 +12,7 @@
       </div>
     {% endif %}
 
+    <!-- Content -->
     <div class="pub-card-content">
       <h3>{{ post.title }}</h3>
       {% if post.excerpt %}
@@ -34,13 +35,14 @@
   border-radius: 16px;
   margin: 1.5rem 0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  min-height: 220px;
+  min-height: 300px; /* make sure the card is tall enough */
 }
 
 .pub-card-bg {
   position: absolute;
   top: 0; left: 0;
-  width: 100%; height: 100%;
+  width: 100%;
+  height: 100%;
   background-size: cover;
   background-position: center;
   filter: blur(10px) brightness(0.6);
@@ -53,7 +55,7 @@
   position: absolute;
   top:0; left:0;
   width:100%; height:100%;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.3); /* semi-transparent overlay for text */
   pointer-events: none;
 }
 
@@ -80,19 +82,23 @@
   color: white;
   text-decoration: none;
   padding: 2rem;
-  z-index: 2; /* above bg */
+  height: 100%;
+  z-index: 2;
 }
 
 .pub-card-content {
   position: relative;
   z-index: 3;
   text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  transition: transform 0.3s ease;
+}
+
+.pub-card:hover .pub-card-content {
+  transform: scale(1.05); /* hover scales all content */
 }
 
 .pub-card-content h3 {
   margin: 0 0 0.5rem;
-  font-size: 1.5rem;
-  transition: transform 0.3s ease;
 }
 
 .pub-card-content p {
@@ -117,9 +123,5 @@
 
 .pub-card:hover .pub-card-bg {
   filter: blur(0px) brightness(1);
-}
-
-.pub-card:hover h3 {
-  transform: scale(1.1);
 }
 </style>
