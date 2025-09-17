@@ -6,7 +6,7 @@ main:
   url: /CV.pdf
 
 - title: "Publications"
-  url: https://scholar.google.com/citations?user=IwHEEdEAAAAJ&hl=en
+  url: /publications/
 
 - title: "Projects"
   url: /projects/
