@@ -2,7 +2,16 @@
 
 <div class="pub-card">
   <a href="{{ base_path }}{{ post.url }}" class="pub-card-link">
+    <!-- Background image (blurred by default) -->
     <div class="pub-card-bg" style="background-image: url('{{ post.bg_image | default: '/images/default-bg.jpg' }}');"></div>
+    
+    <!-- Optional thumbnail -->
+    {% if post.image %}
+      <div class="pub-card-thumb">
+        <img src="{{ post.image }}" alt="{{ post.title }} thumbnail">
+      </div>
+    {% endif %}
+    
     <div class="pub-card-content">
       <h3>{{ post.title }}</h3>
       {% if post.excerpt %}
@@ -10,6 +19,9 @@
       {% endif %}
       {% if post.venue %}
         <p><em>{{ post.venue }}</em></p>
+      {% endif %}
+      {% if post.paperurl %}
+        <a class="pub-card-button" href="{{ post.paperurl }}" target="_blank">Read Paper</a>
       {% endif %}
     </div>
   </a>
@@ -22,6 +34,7 @@
   border-radius: 16px;
   margin: 1.5rem 0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  min-height: 220px; /* ensures card is visible */
 }
 .pub-card-bg {
   position: absolute;
@@ -31,6 +44,22 @@
   background-position: center;
   filter: blur(10px) brightness(0.6);
   transition: filter 0.4s ease;
+  z-index: 0;
+}
+.pub-card-thumb {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 8px;
+  z-index: 2;
+}
+.pub-card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .pub-card-link {
   display: block;
@@ -47,6 +76,20 @@
 }
 .pub-card-content p {
   margin: 0.3rem 0;
+}
+.pub-card-button {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background-color: rgba(255,255,255,0.2);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.pub-card-button:hover {
+  background-color: rgba(255,255,255,0.4);
 }
 .pub-card:hover .pub-card-bg {
   filter: blur(0px) brightness(1);
