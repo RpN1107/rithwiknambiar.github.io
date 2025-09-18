@@ -28,6 +28,8 @@
   overflow: hidden;
   margin: 20px 0;
   height: 250px;
+  border: 2px solid black; /* ✅ Add black border */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* Optional subtle shadow for depth */
 }
 
 .project-card-bg {
@@ -75,14 +77,9 @@
   transition: font-size 0.2s ease;
 }
 
-.project-card-blur:hover .project-card-title {
-  font-size: 1.6em;
-}
-
 .project-card-excerpt {
   font-size: 0.95em;
   opacity: 0.85;
   color: black;
 }
 </style>
-
