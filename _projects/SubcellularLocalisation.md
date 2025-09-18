@@ -16,7 +16,7 @@ A deep learning-based tool to predict the **subcellular localisation** of human 
 
 ## 🔍 Overview
 
-This tool allows users to input protein sequences and obtain predictions for **nucleus, cytoplasm, membrane, secretory pathway**, and more. Predictions are powered by **ESM2 embeddings**, a transformer-based protein language model trained on millions of sequences.
+This tool allows users to input protein sequences and obtain predictions for three locations: **nucleus, cytoplasm and secreted**. Predictions are powered by **ESM2 embeddings**, a transformer-based protein language model trained on millions of sequences.
 
 The project includes:
 
@@ -62,7 +62,8 @@ The project includes:
 git clone https://github.com/yourusername/protein_localisation_app.git
 cd protein_localisation_app
 ```
-
+  Or you can download the ZIP file from the "<> Code" button.
+  
 2. **Install dependencies**
 
 ```bash
