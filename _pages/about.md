@@ -32,7 +32,7 @@ Bioinformatics and data science make it possible to uncover hidden patterns in c
   </p>
 </div>
 
-<div style="margin-top: 40px;">
+<div style="display: flex; margin-top: 40px;">
   <p>
     <strong>Skills & Tools</strong><br><br>
 
