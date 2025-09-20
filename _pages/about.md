@@ -15,7 +15,7 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
 
 ---
 
-## Why Bioinformatics / Computational Biology
+## Why Computational Biology?
 
 During my research experience in molecular biology, I became increasingly aware of how rapidly biology is transforming into a data-driven science. Advances in high-throughput sequencing, proteomics, metabolomics, and imaging technologies now generate data at a scale and complexity that cannot be addressed by traditional experimental methods alone. I believe that to truly advance our understanding of life, we must merge the strengths of experimental biology with the analytical power of computational approaches.
 
