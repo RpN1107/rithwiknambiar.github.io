@@ -75,7 +75,7 @@ Bioinformatics and data science make it possible to uncover hidden patterns in c
   </p>
 </div>
 
-<div style="display: flex; align-items: center; margin-top: 40px;">
+<div style= margin-top: 40px;">
   <p style="margin-right: 20px;">
     <strong>Research Interests</strong><br>
     <ul>
