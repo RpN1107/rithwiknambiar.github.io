@@ -24,7 +24,7 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
     <div style="text-align: center; margin: 5px;">
       <a href="https://www.iisertvm.ac.in/" target="_blank" style="text-decoration: none; color: inherit;">
         <div style="width: 40px; height: 40px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="https://github.com/RpN1107/rithwiknambiar.github.io/blob/master/images/logos/iiser_logo.png" alt="IISER Thiruvananthapuram" style="width: 100%; height: 100%; object-fit: cover;">
+          <img src="https://raw.github.com/RpN1107/rithwiknambiar.github.io/blob/master/images/logos/iiser_logo.png" alt="IISER Thiruvananthapuram" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
         <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 0.9rem;">Integrated MSc</p>
       </a>
@@ -35,7 +35,7 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
     <div style="text-align: center; margin: 5px;">
       <a href="https://www.uib.no/en" target="_blank" style="text-decoration: none; color: inherit;">
         <div style="width: 40px; height: 40px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="https://github.com/RpN1107/rithwiknambiar.github.io/blob/master/images/logos/uib-logo.jpg" alt="University of Bergen" style="width: 100%; height: 100%; object-fit: cover;">
+          <img src="https://raw.github.com/RpN1107/rithwiknambiar.github.io/blob/master/images/logos/uib-logo.jpg" alt="University of Bergen" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
         <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 0.9rem;">PhD (brief)</p>
       </a>
@@ -46,7 +46,7 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
     <div style="text-align: center; margin: 5px;">
       <a href="https://www.iisertirupati.ac.in/" target="_blank" style="text-decoration: none; color: inherit;">
         <div style="width: 40px; height: 40px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="https://github.com/RpN1107/rithwiknambiar.github.io/blob/master/images/logos/tirupati-logo-icon.png" alt="IISER Tirupati" style="width: 100%; height: 100%; object-fit: cover;">
+          <img src="https://raw.github.com/RpN1107/rithwiknambiar.github.io/blob/master/images/logos/tirupati-logo-icon.png" alt="IISER Tirupati" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
         <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 0.9rem;">Professional MSc</p>
       </a>
@@ -59,7 +59,7 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
     <div style="text-align: center; margin: 5px;">
       <a href="/projects/" target="_blank" style="text-decoration: none; color: inherit;">
         <div style="width: 40px; height: 40px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="https://github.com/RpN1107/rithwiknambiar.github.io/blob/master/images/logos/bioinformatics-logo.png" alt="Computational Biology" style="width: 100%; height: 100%; object-fit: cover;">
+          <img src="https://raw.github.com/RpN1107/rithwiknambiar.github.io/blob/master/images/logos/bioinformatics-logo.png" alt="Computational Biology" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
         <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 0.9rem;">Current Focus</p>
       </a>
