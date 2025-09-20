@@ -68,19 +68,19 @@ Bioinformatics and data science make it possible to uncover hidden patterns in c
 
 <div style="margin-top: 40px;">
 <p>
-<strong>Skills & Tools</strong><br>
+<strong>Skills & Tools</strong><br><br>
 
 <strong>Experimental:</strong><br>
 DNA/RNA isolation · Molecular cloning · Western blotting · Affinity purification · Protein expression & purification · Immunofluorescence · Fluorescence microscopy · Yeast genetics & culture · Mammalian cell culture
-<br>
+<br><br>
 
 <strong>Computational:</strong><br>
 Flux balance analysis · Constraint-based modelling · Dynamic modelling · Proteomics & metabolomics pipelines · Bulk RNA-seq analysis · Single-cell RNA-seq analysis · Machine learning · Deep learning
-<br>
+<br><br>
 
 <strong>Programming Languages:</strong><br>
 Shell · R · Python · MATLAB · Perl
-<br>
+<br><br>
 
 <strong>Software & Platforms:</strong><br>
 ImageJ (FIJI) · QuantityOne · GraphPad Prism · RStudio · Google Colab · Cytoscape · Chimera · PyMOL · GROMACS
