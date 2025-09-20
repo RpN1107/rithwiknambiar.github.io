@@ -11,7 +11,65 @@ I have just finished a professional master’s in Biological Data Science at the
 
 Following this, I briefly pursued a PhD in Molecular Biology at the University of Bergen, where I worked on mitochondrial morphology using advanced microscopy and image analysis. Although I chose to transition out of the program, the experience strengthened my interest in mitochondria and motivated me to expand my skillset in computational biology. This led me to my current training in data science, machine learning, and large-scale omics analysis.
 
+<div style="margin-top: 40px;">
+  <h2>Academic Journey</h2>
+  <div style="display: flex; justify-content: space-between; align-items: center; position: relative; margin-top: 20px; flex-wrap: wrap;">
 
+    <!-- Timeline line -->
+    <div style="position: absolute; top: 30px; left: 0; right: 0; height: 2px; background-color: #ccc; z-index: -1;"></div>
+
+    <!-- Timeline points -->
+
+    <!-- Integrated MSc -->
+    <div style="text-align: center; margin: 10px;">
+      <a href="https://www.iisertvm.ac.in/" target="_blank" style="text-decoration: none; color: inherit;">
+        <div style="width: 50px; height: 50px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
+          <img src="/images/logos/iiser_logo.png" alt="IISER Thiruvananthapuram" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <p style="margin: 5px 0 0 0; font-weight: bold;">Integrated MSc</p>
+      </a>
+      <p style="margin: 0;">IISER Thiruvananthapuram</p>
+    </div>
+
+    <!-- PhD (brief) -->
+    <div style="text-align: center; margin: 10px;">
+      <a href="https://www.uib.no/en" target="_blank" style="text-decoration: none; color: inherit;">
+        <div style="width: 50px; height: 50px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
+          <img src="/images/logos/uib-logo.jpg" alt="University of Bergen" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <p style="margin: 5px 0 0 0; font-weight: bold;">PhD (brief)</p>
+      </a>
+      <p style="margin: 0;">University of Bergen</p>
+    </div>
+
+
+    <!-- Professional MSc -->
+    <div style="text-align: center; margin: 10px;">
+      <a href="https://www.iisertirupati.ac.in/" target="_blank" style="text-decoration: none; color: inherit;">
+        <div style="width: 50px; height: 50px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
+          <img src="/images/logos/tirupati-logo-icon.png" alt="IISER Tirupati" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <p style="margin: 5px 0 0 0; font-weight: bold;">Professional MSc</p>
+      </a>
+      <p style="margin: 0;">IISER Tirupati</p>
+    </div>
+
+
+
+    <!-- Current Focus -->
+    <div style="text-align: center; margin: 10px;">
+      <a href="/projects/" target="_blank" style="text-decoration: none; color: inherit;">
+        <div style="width: 50px; height: 50px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
+          <img src="/images/logos/bioinformatics-logo.png" alt="Computational Biology" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <p style="margin: 5px 0 0 0; font-weight: bold;">Current Focus</p>
+      </a>
+      <p style="margin: 0;">Computational Biology & Bioinformatics</p>
+    </div>
+
+  </div>
+</div>
+<br>
 <div style="display: flex; align-items: center; margin-top: 20px;">
   <p>
     <strong>Why Bioinformatics/Computational Biology?</strong><br>
