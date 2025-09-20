@@ -18,48 +18,44 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
     <!-- Timeline line -->
     <div style="position: absolute; top: 25px; left: 0; right: 0; height: 2px; background-color: #ccc; z-index: -1;"></div>
 
-    <!-- Timeline points -->
-
     <!-- Integrated MSc -->
     <div style="text-align: center; margin: 5px;">
       <a href="https://www.iisertvm.ac.in/" target="_blank" style="text-decoration: none; color: inherit;">
         <div style="width: 40px; height: 40px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="https://raw.github.com/RpN1107/rithwiknambiar.github.io/blob/master/images/logos/iiser_logo.png" alt="IISER Thiruvananthapuram" style="width: 100%; height: 100%; object-fit: cover;">
+          <img src="/assets/images/iiser_logo.png" alt="IISER Thiruvananthapuram" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
         <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 0.9rem;">Integrated MSc</p>
       </a>
       <p style="margin: 0; font-size: 0.85rem;">IISER Thiruvananthapuram</p>
     </div>
 
-    <!-- PhD (brief) -->
-    <div style="text-align: center; margin: 5px;">
-      <a href="https://www.uib.no/en" target="_blank" style="text-decoration: none; color: inherit;">
-        <div style="width: 40px; height: 40px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="https://raw.github.com/RpN1107/rithwiknambiar.github.io/blob/master/images/logos/uib-logo.jpg" alt="University of Bergen" style="width: 100%; height: 100%; object-fit: cover;">
-        </div>
-        <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 0.9rem;">PhD (brief)</p>
-      </a>
-      <p style="margin: 0; font-size: 0.85rem;">University of Bergen</p>
-    </div>
-
     <!-- Professional MSc -->
     <div style="text-align: center; margin: 5px;">
       <a href="https://www.iisertirupati.ac.in/" target="_blank" style="text-decoration: none; color: inherit;">
         <div style="width: 40px; height: 40px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="https://raw.github.com/RpN1107/rithwiknambiar.github.io/blob/master/images/logos/tirupati-logo-icon.png" alt="IISER Tirupati" style="width: 100%; height: 100%; object-fit: cover;">
+          <img src="/assets/images/tirupati-logo-icon.png" alt="IISER Tirupati" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
         <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 0.9rem;">Professional MSc</p>
       </a>
       <p style="margin: 0; font-size: 0.85rem;">IISER Tirupati</p>
     </div>
 
-
+    <!-- PhD (brief) -->
+    <div style="text-align: center; margin: 5px;">
+      <a href="https://www.uib.no/en" target="_blank" style="text-decoration: none; color: inherit;">
+        <div style="width: 40px; height: 40px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
+          <img src="/assets/images/uib-logo.jpg" alt="University of Bergen" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 0.9rem;">PhD (brief)</p>
+      </a>
+      <p style="margin: 0; font-size: 0.85rem;">University of Bergen</p>
+    </div>
 
     <!-- Current Focus -->
     <div style="text-align: center; margin: 5px;">
       <a href="/projects/" target="_blank" style="text-decoration: none; color: inherit;">
         <div style="width: 40px; height: 40px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="https://raw.github.com/RpN1107/rithwiknambiar.github.io/blob/master/images/logos/bioinformatics-logo.png" alt="Computational Biology" style="width: 100%; height: 100%; object-fit: cover;">
+          <img src="/assets/images/bioinformatics-logo.png" alt="Computational Biology" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
         <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 0.9rem;">Current Focus</p>
       </a>
@@ -71,8 +67,8 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
 
 <br>
 <div style="display: flex; align-items: center; margin-top: 20px;">
+  <h2>Why Bioinformatics/Computational Biology?</h2>
   <p>
-    <strong>Why Bioinformatics/Computational Biology?</strong><br>
     During my research experience in molecular biology, I became increasingly aware of how rapidly biology is transforming into a data-driven science. Advances in high-throughput sequencing, proteomics, metabolomics, and imaging technologies now generate data at a scale and complexity that cannot be addressed by traditional experimental methods alone. I believe that to truly advance our understanding of life, we must merge the strengths of experimental biology with the analytical power of computational approaches.
 
 Bioinformatics and data science make it possible to uncover hidden patterns in complex datasets, build predictive models of biological systems, and integrate multiple layers of omics data into a unified view of cellular function. For me, this fusion of wet-lab biology and computation is not just complementary, but essential for answering the next generation of biological questions.
@@ -92,9 +88,8 @@ Bioinformatics and data science make it possible to uncover hidden patterns in c
 </div>
 
 <div style="margin-top: 40px;">
-<p>
-<strong>Skills & Tools</strong><br><br>
-
+    <h2>Skills & Tools</h2>
+    <p>
 <strong>Experimental:</strong><br>
 DNA/RNA isolation · Molecular cloning · Western blotting · Affinity purification · Protein expression & purification · Immunofluorescence · Fluorescence microscopy · Yeast genetics & culture · Mammalian cell culture
 <br><br>
@@ -111,6 +106,8 @@ Shell · R · Python · MATLAB · Perl
 ImageJ (FIJI) · QuantityOne · GraphPad Prism · RStudio · Google Colab · Cytoscape · Chimera · PyMOL · GROMACS
 </p>
 </div>
+
+  
 
 ---
 
