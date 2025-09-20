@@ -52,6 +52,7 @@ Bioinformatics and data science make it possible to uncover hidden patterns in c
     ImageJ (FIJI) · QuantityOne · GraphPad Prism · RStudio · Google Colab · Cytoscape · Chimera · PyMOL · GROMACS
   </p>
 </div>
+
 ---
 
 ## Outside the Lab
