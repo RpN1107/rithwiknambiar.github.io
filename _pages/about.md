@@ -32,25 +32,25 @@ Bioinformatics and data science make it possible to uncover hidden patterns in c
   </p>
 </div>
 
-<div style="display: flex; margin-top: 40px;">
-  <p>
-    <strong>Skills & Tools</strong><br><br>
+<div style="margin-top: 40px;">
+<p>
+<strong>Skills & Tools</strong><br><br>
 
-    <strong>Experimental:</strong><br>
-    DNA/RNA isolation · Molecular cloning · Western blotting · Affinity purification · Protein expression & purification · Immunofluorescence · Fluorescence microscopy · Yeast genetics & culture · Mammalian cell culture
-    <br><br>
+<strong>Experimental:</strong><br>
+DNA/RNA isolation · Molecular cloning · Western blotting · Affinity purification · Protein expression & purification · Immunofluorescence · Fluorescence microscopy · Yeast genetics & culture · Mammalian cell culture
+<br><br>
 
-    <strong>Computational:</strong><br>
-    Flux balance analysis · Constraint-based modelling · Dynamic modelling · Proteomics & metabolomics pipelines · Bulk RNA-seq analysis · Single-cell RNA-seq analysis · Machine learning · Deep learning
-    <br><br>
+<strong>Computational:</strong><br>
+Flux balance analysis · Constraint-based modelling · Dynamic modelling · Proteomics & metabolomics pipelines · Bulk RNA-seq analysis · Single-cell RNA-seq analysis · Machine learning · Deep learning
+<br><br>
 
-    <strong>Programming Languages:</strong><br>
-    Shell · R · Python · MATLAB · Perl
-    <br><br>
+<strong>Programming Languages:</strong><br>
+Shell · R · Python · MATLAB · Perl
+<br><br>
 
-    <strong>Software & Platforms:</strong><br>
-    ImageJ (FIJI) · QuantityOne · GraphPad Prism · RStudio · Google Colab · Cytoscape · Chimera · PyMOL · GROMACS
-  </p>
+<strong>Software & Platforms:</strong><br>
+ImageJ (FIJI) · QuantityOne · GraphPad Prism · RStudio · Google Colab · Cytoscape · Chimera · PyMOL · GROMACS
+</p>
 </div>
 
 ---
