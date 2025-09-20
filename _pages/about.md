@@ -76,8 +76,8 @@ Bioinformatics and data science make it possible to uncover hidden patterns in c
 </div>
 
 <div style= margin-top: 40px;">
+  <h2> Research Interests </h2>
   <p style="margin-right: 20px;">
-    <strong>Research Interests</strong><br>
     <ul>
       <li><strong>Mitochondrial Biology</strong> – Investigating mitochondrial dynamics, function, and their role in cellular homeostasis</li>
       <li><strong>Structural Bioinformatics & Molecular Dynamics</strong> – Using molecular dynamics simulations and computational approaches to study protein structure, dynamics, and interactions</li>
