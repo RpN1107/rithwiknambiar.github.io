@@ -32,16 +32,26 @@ Bioinformatics and data science make it possible to uncover hidden patterns in c
   </p>
 </div>
 
-<div style="display: flex; align-items: center; margin-top: 40px;">
+<div style="margin-top: 40px;">
   <p>
-    <strong>Skills & Tools</strong><br>
-    <strong>Experimental:</strong> Molecular Cloning, Western Blotting, Protein Expression and Purification, Immunofluorescence, Fluorescence Microscopy, DNA/RNA isolation, Yeast Genetics, Yeast Cell Culture, Mammalian Cell Culture, Affinity Purification<br><br>
-    <strong>Languages:</strong> R, Python, Shell , MATLAB, Perl<br><br>
-    <strong>Computational skills:</strong> Machine Learning, Deep Learning, Flux Balance Analysis, Dynamic Modelling, Constraint-Based Modelling, Bulk and scRNA Seq analysis, Proteomics and metabolomics pipelines<br>
-    <strong>Softwares:</strong> Colab, RStudio, Chimera, Pymol, GROMACS, Cytoscape, GraphPad, ImageJ (FIJI), QuantityOne
+    <strong>Skills & Tools</strong><br><br>
+
+    <strong>Experimental:</strong><br>
+    DNA/RNA isolation · Molecular cloning · Western blotting · Affinity purification · Protein expression & purification · Immunofluorescence · Fluorescence microscopy · Yeast genetics & culture · Mammalian cell culture
+    <br><br>
+
+    <strong>Computational:</strong><br>
+    Flux balance analysis · Constraint-based modelling · Dynamic modelling · Proteomics & metabolomics pipelines · Bulk RNA-seq analysis · Single-cell RNA-seq analysis · Machine learning · Deep learning
+    <br><br>
+
+    <strong>Programming Languages:</strong><br>
+    Shell · R · Python · MATLAB · Perl
+    <br><br>
+
+    <strong>Software & Platforms:</strong><br>
+    ImageJ (FIJI) · QuantityOne · GraphPad Prism · RStudio · Google Colab · Cytoscape · Chimera · PyMOL · GROMACS
   </p>
 </div>
-
 ---
 
 ## Outside the Lab
