@@ -11,73 +11,19 @@ I have just finished a professional master’s in Biological Data Science at the
 
 Following this, I briefly pursued a PhD in Molecular Biology at the University of Bergen, where I worked on mitochondrial morphology using advanced microscopy and image analysis. Although I chose to transition out of the program, the experience strengthened my interest in mitochondria and motivated me to expand my skillset in computational biology. This led me to my current training in data science, machine learning, and large-scale omics analysis.
 
-<div style="margin-top: 40px;">
-  <h2>Academic Journey</h2>
-  <div style="display: flex; justify-content: space-between; align-items: center; position: relative; margin-top: 20px; flex-wrap: wrap;">
 
-    <!-- Timeline line -->
-    <div style="position: absolute; top: 25px; left: 0; right: 0; height: 2px; background-color: #ccc; z-index: -1;"></div>
-
-    <!-- Integrated MSc -->
-    <div style="text-align: center; margin: 5px;">
-      <a href="https://www.iisertvm.ac.in/" target="_blank" style="text-decoration: none; color: inherit;">
-        <div style="width: 40px; height: 40px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="/assets/images/iiser_logo.png" alt="IISER Thiruvananthapuram" style="width: 100%; height: 100%; object-fit: cover;">
-        </div>
-        <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 0.9rem;">Integrated MSc</p>
-      </a>
-      <p style="margin: 0; font-size: 0.85rem;">IISER Thiruvananthapuram</p>
-    </div>
-
-    <!-- Professional MSc -->
-    <div style="text-align: center; margin: 5px;">
-      <a href="https://www.iisertirupati.ac.in/" target="_blank" style="text-decoration: none; color: inherit;">
-        <div style="width: 40px; height: 40px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="/assets/images/tirupati-logo-icon.png" alt="IISER Tirupati" style="width: 100%; height: 100%; object-fit: cover;">
-        </div>
-        <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 0.9rem;">Professional MSc</p>
-      </a>
-      <p style="margin: 0; font-size: 0.85rem;">IISER Tirupati</p>
-    </div>
-
-    <!-- PhD (brief) -->
-    <div style="text-align: center; margin: 5px;">
-      <a href="https://www.uib.no/en" target="_blank" style="text-decoration: none; color: inherit;">
-        <div style="width: 40px; height: 40px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="/assets/images/uib-logo.jpg" alt="University of Bergen" style="width: 100%; height: 100%; object-fit: cover;">
-        </div>
-        <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 0.9rem;">PhD (brief)</p>
-      </a>
-      <p style="margin: 0; font-size: 0.85rem;">University of Bergen</p>
-    </div>
-
-    <!-- Current Focus -->
-    <div style="text-align: center; margin: 5px;">
-      <a href="/projects/" target="_blank" style="text-decoration: none; color: inherit;">
-        <div style="width: 40px; height: 40px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="/assets/images/bioinformatics-logo.png" alt="Computational Biology" style="width: 100%; height: 100%; object-fit: cover;">
-        </div>
-        <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 0.9rem;">Current Focus</p>
-      </a>
-      <p style="margin: 0; font-size: 0.85rem;">Computational Biology & Bioinformatics</p>
-    </div>
-
-  </div>
-</div>
-
-<br>
 <div style="display: flex; align-items: center; margin-top: 20px;">
-  <h2>Why Bioinformatics/Computational Biology?</h2>
   <p>
+    <strong>Why Bioinformatics/Computational Biology?</strong><br>
     During my research experience in molecular biology, I became increasingly aware of how rapidly biology is transforming into a data-driven science. Advances in high-throughput sequencing, proteomics, metabolomics, and imaging technologies now generate data at a scale and complexity that cannot be addressed by traditional experimental methods alone. I believe that to truly advance our understanding of life, we must merge the strengths of experimental biology with the analytical power of computational approaches.
 
 Bioinformatics and data science make it possible to uncover hidden patterns in complex datasets, build predictive models of biological systems, and integrate multiple layers of omics data into a unified view of cellular function. For me, this fusion of wet-lab biology and computation is not just complementary, but essential for answering the next generation of biological questions.
   </p>
 </div>
 
-<div style= margin-top: 40px;">
-  <h2> Research Interests </h2>
+<div style="display: flex; align-items: center; margin-top: 40px;">
   <p style="margin-right: 20px;">
+    <strong>Research Interests</strong><br>
     <ul>
       <li><strong>Mitochondrial Biology</strong> – Investigating mitochondrial dynamics, function, and their role in cellular homeostasis</li>
       <li><strong>Structural Bioinformatics & Molecular Dynamics</strong> – Using molecular dynamics simulations and computational approaches to study protein structure, dynamics, and interactions</li>
@@ -88,8 +34,9 @@ Bioinformatics and data science make it possible to uncover hidden patterns in c
 </div>
 
 <div style="margin-top: 40px;">
-    <h2>Skills & Tools</h2>
-    <p>
+<p>
+<strong>Skills & Tools</strong><br><br>
+
 <strong>Experimental:</strong><br>
 DNA/RNA isolation · Molecular cloning · Western blotting · Affinity purification · Protein expression & purification · Immunofluorescence · Fluorescence microscopy · Yeast genetics & culture · Mammalian cell culture
 <br><br>
@@ -106,8 +53,6 @@ Shell · R · Python · MATLAB · Perl
 ImageJ (FIJI) · QuantityOne · GraphPad Prism · RStudio · Google Colab · Cytoscape · Chimera · PyMOL · GROMACS
 </p>
 </div>
-
-  
 
 ---
 
