@@ -11,40 +11,7 @@ I have just finished a professional master’s in Biological Data Science at the
 
 Following this, I briefly pursued a PhD in Molecular Biology at the University of Bergen, where I worked on mitochondrial morphology using advanced microscopy and image analysis. Although I chose to transition out of the program, the experience strengthened my interest in mitochondria and motivated me to expand my skillset in computational biology. This led me to my current training in data science, machine learning, and large-scale omics analysis.
 
-<div style="margin-top: 40px;">
-  <h2>Academic Journey</h2>
-  <div style="display: flex; justify-content: space-between; align-items: center; position: relative; margin-top: 20px;">
 
-    <!-- Timeline line -->
-    <div style="position: absolute; top: 20px; left: 0; right: 0; height: 2px; background-color: #ccc; z-index: -1;"></div>
-
-    <!-- Timeline points -->
-    <div style="text-align: center;">
-      <div style="width: 20px; height: 20px; background-color: #007ACC; border-radius: 50%; margin: 0 auto;"></div>
-      <p style="margin: 5px 0 0 0; font-weight: bold;">Integrated MSc</p>
-      <p style="margin: 0;">IISER Thiruvananthapuram</p>
-    </div>
-
-    <div style="text-align: center;">
-      <div style="width: 20px; height: 20px; background-color: #007ACC; border-radius: 50%; margin: 0 auto;"></div>
-      <p style="margin: 5px 0 0 0; font-weight: bold;">Professional MSc</p>
-      <p style="margin: 0;">IISER Tirupati</p>
-    </div>
-
-    <div style="text-align: center;">
-      <div style="width: 20px; height: 20px; background-color: #007ACC; border-radius: 50%; margin: 0 auto;"></div>
-      <p style="margin: 5px 0 0 0; font-weight: bold;">PhD (brief)</p>
-      <p style="margin: 0;">University of Bergen</p>
-    </div>
-
-    <div style="text-align: center;">
-      <div style="width: 20px; height: 20px; background-color: #007ACC; border-radius: 50%; margin: 0 auto;"></div>
-      <p style="margin: 5px 0 0 0; font-weight: bold;">Current Focus</p>
-      <p style="margin: 0;">Computational Biology & Bioinformatics</p>
-    </div>
-
-  </div>
-</div>
 <div style="display: flex; align-items: center; margin-top: 20px;">
   <p>
     <strong>Why Bioinformatics/Computational Biology?</strong><br>
