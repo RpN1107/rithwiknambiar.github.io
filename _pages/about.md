@@ -11,16 +11,17 @@ I have just finished a professional master’s in Biological Data Science at the
 
 Following this, I briefly pursued a PhD in Molecular Biology at the University of Bergen, where I worked on mitochondrial morphology using advanced microscopy and image analysis. Although I chose to transition out of the program, the experience strengthened my interest in mitochondria and motivated me to expand my skillset in computational biology. This led me to my current training in data science, machine learning, and large-scale omics analysis.
 
-
+---
+# Why Computational Biology?
 <div style="display: flex; align-items: center; margin-top: 20px;">
   <p>
-    <strong>Why Bioinformatics/Computational Biology?</strong><br>
     During my research experience in molecular biology, I became increasingly aware of how rapidly biology is transforming into a data-driven science. Advances in high-throughput sequencing, proteomics, metabolomics, and imaging technologies now generate data at a scale and complexity that cannot be addressed by traditional experimental methods alone. I believe that to truly advance our understanding of life, we must merge the strengths of experimental biology with the analytical power of computational approaches.
 
 Bioinformatics and data science make it possible to uncover hidden patterns in complex datasets, build predictive models of biological systems, and integrate multiple layers of omics data into a unified view of cellular function. For me, this fusion of wet-lab biology and computation is not just complementary, but essential for answering the next generation of biological questions.
   </p>
 </div>
 
+---
 <div style="display: flex; align-items: center; margin-top: 40px;">
   <p style="margin-right: 20px;">
     <strong>Research Interests</strong><br>
@@ -33,10 +34,12 @@ Bioinformatics and data science make it possible to uncover hidden patterns in c
   </p>
 </div>
 
+---
+
+# Skills & Tools
+
 <div style="margin-top: 40px;">
 <p>
-<strong>Skills & Tools</strong><br><br>
-
 <strong>Experimental:</strong><br>
 DNA/RNA isolation · Molecular cloning · Western blotting · Affinity purification · Protein expression & purification · Immunofluorescence · Fluorescence microscopy · Yeast genetics & culture · Mammalian cell culture
 <br><br>
