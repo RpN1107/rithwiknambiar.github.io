@@ -13,74 +13,78 @@ I recently completed a professional master’s in Biological Data Science at the
 
 Following this, I briefly pursued a PhD in Molecular Biology at the University of Bergen, where I investigated the assembly of yeast mitochondrial OXPHOS complexes using mass spectrometry. Although I chose to transition out of the program, this experience deepened my interest in mitochondria and motivated me to expand my skillset in computational biology. This led me to pursue advanced training in data science, machine learning, and large-scale omics analysis.
 
-<div style="display: flex; flex-direction: column; position: relative; margin-left: 50px;">
-
-  <!-- Timeline line -->
-  <div style="position: absolute; left: 20px; top: 0; width: 2px; height: 100%; background-color: #ccc;"></div>
+<div style="position: relative; display: flex; align-items: flex-start; margin-bottom: 40px;">
   
-  <!-- Milestone: Current Focus -->
-  <div style="position: relative; display: flex; align-items: flex-start; margin-bottom: 40px;">
-    <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
-    <div style="margin-left: 40px;">
-      <img src="./assets/images/bioinformatics-logo.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
-      <p style="margin: 0; font-weight: bold;">Current Focus</p>
-      <p style="margin: 0; font-size: 12px;">Computational Biology</p>
-      <p style="margin: 0; font-size: 11px; color: #555;">2025-</p>
-    </div>
-  </div>
+  <!-- Circle marker -->
+  <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
   
-  <!-- Milestone: Professional MSc -->
-  <div style="position: relative; display: flex; align-items: flex-start; margin-bottom: 40px;">
-    <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
-    <div style="margin-left: 40px;">
-      <img src="./assets/images/tirupati-logo-icon.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
-      <p style="margin: 0; font-weight: bold;">Professional MSc</p>
-      <p style="margin: 0; font-size: 12px;">IISER Tirupati</p>
-      <p style="margin: 0; font-size: 11px; color: #555;">Aug 2024 - Aug 2025</p>
-      <ul style="margin: 5px 0 0 0; padding-left: 20px; font-size: 11px; color: #333;">
-        <li>Developed an ML model to classify mitochondrial health</li>
-        <li>Created a Subcellular Localization Predictor app</li>
-      </ul>
-    </div>
+   <!-- Milestone: Professional MSc -->
+    <!-- Left side: logo + heading -->
+  <div style="margin-left: 40px; flex: 1;">
+    <img src="./assets/images/tirupati-logo-icon.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
+    <p style="margin: 0; font-weight: bold;">Professional MSc</p>
+    <p style="margin: 0; font-size: 12px;">IISER Tirupati</p>
+    <p style="margin: 0; font-size: 11px; color: #555;">Aug 2024 - Aug 2025</p>
   </div>
 
-  <!-- Milestone: Researcher (PhD) -->
-  <div style="position: relative; display: flex; align-items: flex-start; margin-bottom: 40px;">
-    <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
-    <div style="margin-left: 40px;">
-      <img src="./assets/images/uib-logo.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
-      <p style="margin: 0; font-weight: bold;">Researcher</p>
-      <p style="margin: 0; font-size: 12px;">University of Bergen</p>
-      <p style="margin: 0; font-size: 11px; color: #555;">Mar 2022 - Aug 2023</p>
-      <ul style="margin: 5px 0 0 0; padding-left: 20px; font-size: 11px; color: #333;">
-        <li>Studied the assembly of OXPHOS complexes in <em>Saccharomyces cerevisiae</em></li>
-        <li>Served as a teaching assistant for multiple courses (MOL310, MOL222, MOL300)</li>
-      </ul>
-    </div>
+  <!-- Right side: bullet points -->
+  <div style="flex: 1; padding-left: 20px;">
+    <ul style="margin: 0; font-size: 11px; color: #333;">
+      <li>Developed an ML model to classify mitochondrial health</li>
+      <li>Created a Subcellular Localization Predictor app</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Milestone: Researcher -->
+<div style="position: relative; display: flex; align-items: flex-start; margin-bottom: 40px;">
+  <!-- Circle marker -->
+  <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
+  
+  <!-- Left side -->
+  <div style="margin-left: 40px; flex: 1;">
+    <img src="./assets/images/uib-logo.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
+    <p style="margin: 0; font-weight: bold;">Researcher</p>
+    <p style="margin: 0; font-size: 12px;">University of Bergen</p>
+    <p style="margin: 0; font-size: 11px; color: #555;">Mar 2022 - Aug 2023</p>
   </div>
 
-  <!-- Milestone: BS-MS -->
-  <div style="position: relative; display: flex; align-items: flex-start; margin-bottom: 40px;">
-    <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
-    <div style="margin-left: 40px;">
-      <img src="./assets/images/iiser_logo.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
-      <p style="margin: 0; font-weight: bold;">BS-MS</p>
-      <p style="margin: 0; font-size: 12px;">IISER Thiruvananthapuram</p>
-      <p style="margin: 0; font-size: 11px; color: #555;">Aug 2016 - Jul 2021</p>
-      <ul style="margin: 5px 0 0 0; padding-left: 20px; font-size: 11px; color: #333;">
-        <li>Studied the role of an endosome-associated E3 ubiquitin ligase in mitophagy under the supervision of 
+  <!-- Right side -->
+  <div style="flex: 1; padding-left: 20px;">
+    <ul style="margin: 0; font-size: 11px; color: #333;">
+      <li>Studied the assembly of OXPHOS complexes in <em>Saccharomyces cerevisiae</em></li>
+      <li>Served as a teaching assistant for multiple courses (MOL310, MOL222, MOL300)</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Milestone: BS-MS -->
+<div style="position: relative; display: flex; align-items: flex-start; margin-bottom: 40px;">
+  <!-- Circle marker -->
+  <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
+  
+  <!-- Left side -->
+  <div style="margin-left: 40px; flex: 1;">
+    <img src="./assets/images/iiser_logo.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
+    <p style="margin: 0; font-weight: bold;">BS-MS</p>
+    <p style="margin: 0; font-size: 12px;">IISER Thiruvananthapuram</p>
+    <p style="margin: 0; font-size: 11px; color: #555;">Aug 2016 - Jul 2021</p>
+  </div>
+
+  <!-- Right side -->
+  <div style="flex: 1; padding-left: 20px;">
+    <ul style="margin: 0; font-size: 11px; color: #333;">
+      <li>Studied the role of an endosome-associated E3 ubiquitin ligase in mitophagy under the supervision of 
          <a href="https://www.iisertvm.ac.in/faculty/sms" style="color: #007ACC; text-decoration: none;">
            Prof. Srinivasa Murty Srinivasula
          </a></li>
-        <li>Recipient of the Innovation in Science Pursuit for Inspired Research (INSPIRE) fellowship</li>
-        <li>
-          Published work in 
+      <li>Recipient of the Innovation in Science Pursuit for Inspired Research (INSPIRE) fellowship</li>
+      <li>Published work in 
           <a href="./publications/jcs2020/" style="color: #007ACC; text-decoration: none;">
             <em>Journal of Cell Science</em>
           </a>
-        </li>
-      </ul>
-    </div>
+      </li>
+    </ul>
   </div>
 </div>
 
