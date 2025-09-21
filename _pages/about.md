@@ -38,19 +38,19 @@ Bioinformatics and data science make it possible to uncover hidden patterns in c
 DNA/RNA isolation · Molecular cloning · Western blotting · Affinity purification · Protein expression & purification · Immunofluorescence · Fluorescence microscopy · Yeast genetics & culture · Mammalian cell culture
 
 **Computational:**  
-Flux balance analysis · Constraint-based modelling · Dynamic modelling · Proteomics & metabolomics pipelines · Bulk RNA-seq analysis · Single-cell RNA-seq analysis · Machine learning · Deep learning
+Machine learning · Deep learning · Flux balance analysis · Proteomics & metabolomics pipelines · Bulk RNA-seq analysis · Single-cell RNA-seq analysis · Constraint-based modelling · Dynamic modelling 
 
 **Programming Languages:**  
-Shell · R · Python · MATLAB · Perl
+R · Python · Shell · MATLAB · Perl
 
 **Software & Platforms:**  
-ImageJ (FIJI) · QuantityOne · GraphPad Prism · RStudio · Google Colab · Cytoscape · Chimera · PyMOL · GROMACS
+RStudio · Google Colab · ImageJ (FIJI) · Cytoscape · Chimera · PyMOL · QuantityOne · GraphPad Prism · GROMACS
 
 ---
 
 ## Outside the Lab
 
-I enjoy singing, reading whatever I can get my hands on, getting up to speed with what is happening in every sport there is, playing football and exploring creative ways to communicate science.
+I enjoy [singing](https://www.instagram.com/the_singing_gypsy/), reading whatever I can get my hands on, getting up to speed with what is happening in every sport there is, playing football and exploring creative ways to communicate science.
 
 ---
 
