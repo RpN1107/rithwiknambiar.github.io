@@ -9,9 +9,9 @@ redirect_from:
 
 ## My Academic Journey
 
-I have just finished a professional master’s in Biological Data Science at the Indian Institute of Science Education and Research (IISER) Tirupati, where I focused on applying machine learning and data-driven approaches to biological discovery. I began my academic journey with a 5-year integrated master’s in Biology from IISER Thiruvananthapuram, where I developed a strong foundation in cellular and molecular biology and carried out extensive wet-lab research.
+I recently completed a professional master’s in Biological Data Science at the Indian Institute of Science Education and Research (IISER) Tirupati, where I focused on applying machine learning and data-driven approaches to biological discovery. My academic journey began with a 5-year integrated master’s in Biology at IISER Thiruvananthapuram, where I built a strong foundation in cellular and molecular biology and carried out extensive wet-lab research.
 
-Following this, I briefly pursued a PhD in Molecular Biology at the University of Bergen, where I worked on understanding the assembly of yeast mitochondrial OXPHOS complexes using mass spectrometry. Although I chose to transition out of the program, the experience strengthened my interest in mitochondria and motivated me to expand my skillset in computational biology. This led me to my current training in data science, machine learning, and large-scale omics analysis.
+Following this, I briefly pursued a PhD in Molecular Biology at the University of Bergen, where I investigated the assembly of yeast mitochondrial OXPHOS complexes using mass spectrometry. Although I chose to transition out of the program, this experience deepened my interest in mitochondria and motivated me to expand my skillset in computational biology. This led me to pursue advanced training in data science, machine learning, and large-scale omics analysis.
 
 <div style="display: flex; flex-direction: column; position: relative; margin-left: 50px;">
 
@@ -50,8 +50,8 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
       <p style="margin: 0; font-size: 12px;">IISER Tirupati</p>
       <p style="margin: 0; font-size: 11px; color: #555;">Aug 2024 - Aug 2025</p>
       <ul style="margin: 5px 0 0 0; padding-left: 20px; font-size: 11px; color: #333;">
-        <li>Developed ML model to classify mitochondrial health</li>
-        <li>Created Subcellular Localization Predictor app</li>
+        <li>Developed an ML model to classify mitochondrial health</li>
+        <li>Created a Subcellular Localization Predictor app</li>
       </ul>
     </div>
   </div>
@@ -80,10 +80,10 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
       <p style="margin: 0; font-size: 12px;">IISER Thiruvananthapuram</p>
       <p style="margin: 0; font-size: 11px; color: #555;">Aug 2016 - Jul 2021</p>
       <ul style="margin: 5px 0 0 0; padding-left: 20px; font-size: 11px; color: #333;">
-        <li>Studied the role of an endosome associated E3 ubiquitin ligase in mitophagy under the supervision of 
+        <li>Studied the role of an endosome-associated E3 ubiquitin ligase in mitophagy under the supervision of 
          <a href="https://www.iisertvm.ac.in/faculty/sms" style="color: #007ACC; text-decoration: none;">
            Prof. Srinivasa Murty Srinivasula
-        </li>
+         </a></li>
         <li>Recipient of the Innovation in Science Pursuit for Inspired Research (INSPIRE) fellowship</li>
         <li>
           Published work in 
@@ -94,8 +94,8 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
       </ul>
     </div>
   </div>
-
 </div>
+
 
 ---
 
@@ -103,22 +103,22 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
 
 During my research experience in molecular biology, I became increasingly aware of how rapidly biology is transforming into a data-driven science. Advances in high-throughput sequencing, proteomics, metabolomics, and imaging technologies now generate data at a scale and complexity that cannot be addressed by traditional experimental methods alone. I believe that to truly advance our understanding of life, we must merge the strengths of experimental biology with the analytical power of computational approaches.
 
-Bioinformatics and data science make it possible to uncover hidden patterns in complex datasets, build predictive models of biological systems, and integrate multiple layers of omics data into a unified view of cellular function. For me, this fusion of wet-lab biology and computation is not just complementary, but essential for answering the next generation of biological questions.
+Bioinformatics and data science make it possible to uncover hidden patterns in complex datasets, build predictive models of biological systems, and integrate multiple layers of omics data into a unified view of cellular function. For me, this fusion of wet-lab biology and computation is not just complementary but essential for answering the next generation of biological questions.
 
 ---
 
 ## Research Interests
 
-- **Mitochondrial Biology** – Investigating mitochondrial dynamics, function, and their role in cellular homeostasis
-- **Structural Bioinformatics & Molecular Dynamics** – Using molecular dynamics simulations and computational approaches to study protein structure, dynamics, and interactions
-- **Machine Learning in Biology** – Applying machine learning and deep learning to unravel complex biological systems
-- **Multi-Omics Integration** – Integrating genomics, transcriptomics, proteomics, and metabolomics to gain holistic insights into cellular function
+- **Mitochondrial Biology** – Investigating mitochondrial dynamics, function, and their role in cellular homeostasis  
+- **Structural Bioinformatics & Molecular Dynamics** – Using simulations and computational approaches to study protein structure, dynamics, and interactions  
+- **Machine Learning in Biology** – Applying machine learning and deep learning to unravel complex biological systems  
+- **Multi-Omics Integration** – Integrating genomics, transcriptomics, proteomics, and metabolomics to gain holistic insights into cellular function  
 
 ---
 
 ## Outside the Lab
 
-I enjoy [singing](https://www.instagram.com/the_singing_gypsy/), reading whatever I can get my hands on, getting up to speed with what is happening in every sport there is, playing football and exploring creative ways to communicate science.
+I enjoy [singing](https://www.instagram.com/the_singing_gypsy/), reading widely, keeping up with developments across different sports, playing football, and exploring creative ways to communicate science.
 
 ---
 
