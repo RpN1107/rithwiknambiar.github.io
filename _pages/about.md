@@ -55,47 +55,47 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
       </ul>
     </div>
   </div>
-</div>
 
-  <!-- Milestone: PhD -->
+  <!-- Milestone: Researcher (PhD) -->
   <div style="position: relative; display: flex; align-items: flex-start; margin-bottom: 40px;">
     <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
     <div style="margin-left: 40px;">
       <img src="./assets/images/uib-logo.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
       <p style="margin: 0; font-weight: bold;">Researcher</p>
       <p style="margin: 0; font-size: 12px;">University of Bergen</p>
-      <p style="margin: 0; font-size: 11px; color: #555;"> Mar 2022 - Aug 2023</p>
+      <p style="margin: 0; font-size: 11px; color: #555;">Mar 2022 - Aug 2023</p>
       <ul style="margin: 5px 0 0 0; padding-left: 20px; font-size: 11px; color: #333;">
-        <li>Studied the assembly of OXPHOS complexes in <em>Saccharomyces cerevisiae </em>
-        </li>
-        <li>Served as a teaching assistant for multiple course (MOL310, MOL222, MOL300) </li>
+        <li>Studied the assembly of OXPHOS complexes in <em>Saccharomyces cerevisiae</em></li>
+        <li>Served as a teaching assistant for multiple courses (MOL310, MOL222, MOL300)</li>
       </ul>
     </div>
   </div>
-</div>
 
- <!-- Milestone: BSMS-->
+  <!-- Milestone: BS-MS -->
   <div style="position: relative; display: flex; align-items: flex-start; margin-bottom: 40px;">
-    <!-- Bullet -->
     <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
     <div style="margin-left: 40px;">
       <img src="./assets/images/iiser_logo.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
-      <p style="margin: 0; font-weight: bold;">BS MS</p>
+      <p style="margin: 0; font-weight: bold;">BS-MS</p>
       <p style="margin: 0; font-size: 12px;">IISER Thiruvananthapuram</p>
       <p style="margin: 0; font-size: 11px; color: #555;">Aug 2016 - Jul 2021</p>
-
-      <!-- Achievements -->
       <ul style="margin: 5px 0 0 0; padding-left: 20px; font-size: 11px; color: #333;">
-        <li>Recipient of the Innovation in Science Pursuit for Inspired Research (INSPIRE) fellowship </li>
-        <li>Published work in 
-        <a href= "./publications/jcs2020/" style="color: #007ACC; text-decoration: none;">
-        <em>Journal of Cell Sciences</em>
-        </a>
+        <li>Studied the role of an endosome associated E3 ubiquitin ligase in mitophagy under the supervision of 
+         <a href="https://www.iisertvm.ac.in/faculty/sms" style="color: #007ACC; text-decoration: none;">
+           Prof. Srinivasa Murty Srinivasula
+        </li>
+        <li>Recipient of the Innovation in Science Pursuit for Inspired Research (INSPIRE) fellowship</li>
+        <li>
+          Published work in 
+          <a href="./publications/jcs2020/" style="color: #007ACC; text-decoration: none;">
+            <em>Journal of Cell Science</em>
+          </a>
         </li>
       </ul>
     </div>
   </div>
-    </div>
+
+</div>
 
 ---
 
