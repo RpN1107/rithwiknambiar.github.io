@@ -37,7 +37,7 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
       <img src="./assets/images/bioinformatics-logo.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
       <p style="margin: 0; font-weight: bold;">Current Focus</p>
       <p style="margin: 0; font-size: 12px;">Computational Biology</p>
-      <p style="margin: 0; font-size: 11px; color: #555;">2022 - 2025</p>
+      <p style="margin: 0; font-size: 11px; color: #555;">2025-</p>
     </div>
   </div>
   
