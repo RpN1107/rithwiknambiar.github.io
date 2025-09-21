@@ -13,10 +13,7 @@ I have just finished a professional master’s in Biological Data Science at the
 
 Following this, I briefly pursued a PhD in Molecular Biology at the University of Bergen, where I worked on understanding the assembly of yeast mitochondrial OXPHOS complexes using mass spectrometry. Although I chose to transition out of the program, the experience strengthened my interest in mitochondria and motivated me to expand my skillset in computational biology. This led me to my current training in data science, machine learning, and large-scale omics analysis.
 
----
-
 <div style="margin-top: 40px;">
-  <h2>Academic Journey</h2>
   <div style="display: flex; justify-content: space-between; align-items: center; position: relative; margin-top: 20px; flex-wrap: wrap;">
 
     <!-- Timeline line -->
