@@ -93,25 +93,6 @@ Bioinformatics and data science make it possible to uncover hidden patterns in c
 
 ---
 
-## Skills & Tools
-
-**Experimental:**  
-DNA/RNA isolation · Molecular cloning · Western blotting · Affinity purification · Protein expression & purification · Immunofluorescence · Fluorescence microscopy · Yeast genetics & culture · Mammalian cell culture
-
-**Computational:**  
-Machine learning · Deep learning · Flux balance analysis · Proteomics & metabolomics pipelines · Bulk RNA-seq analysis · Single-cell RNA-seq analysis · Constraint-based modelling · Dynamic modelling 
-
-**Programming Languages:**  
-R · Python · Shell · MATLAB · Perl
-
-**Software & Platforms:**  
-RStudio · Google Colab · ImageJ (FIJI) · Cytoscape · Chimera · PyMOL · QuantityOne · GraphPad Prism · GROMACS
-
-**Systems & Environment:**
-Unix/Linux (command-line, Bash scripting) · HPC (PBS) · Git · Conda · Snakemake
-
----
-
 ## Outside the Lab
 
 I enjoy [singing](https://www.instagram.com/the_singing_gypsy/), reading whatever I can get my hands on, getting up to speed with what is happening in every sport there is, playing football and exploring creative ways to communicate science.
