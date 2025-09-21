@@ -46,6 +46,9 @@ R · Python · Shell · MATLAB · Perl
 **Software & Platforms:**  
 RStudio · Google Colab · ImageJ (FIJI) · Cytoscape · Chimera · PyMOL · QuantityOne · GraphPad Prism · GROMACS
 
+**Systems & Environment:**
+Unix/Linux (command-line, Bash scripting) · HPC (PBS) · Git · Conda · Snakemake
+
 ---
 
 ## Outside the Lab
