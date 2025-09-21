@@ -19,7 +19,6 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
   <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
   
    <!-- Milestone: Professional MSc -->
-    <!-- Left side: logo + heading -->
   <div style="margin-left: 40px; flex: 1;">
     <img src="./assets/images/tirupati-logo-icon.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
     <p style="margin: 0; font-weight: bold;">Professional MSc</p>
@@ -27,7 +26,6 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
     <p style="margin: 0; font-size: 11px; color: #555;">Aug 2024 - Aug 2025</p>
   </div>
 
-  <!-- Right side: bullet points -->
   <div style="flex: 1; padding-left: 20px;">
     <ul style="margin: 0; font-size: 11px; color: #333;">
       <li>Developed an ML model to classify mitochondrial health</li>
@@ -41,7 +39,6 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
   <!-- Circle marker -->
   <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
   
-  <!-- Left side -->
   <div style="margin-left: 40px; flex: 1;">
     <img src="./assets/images/uib-logo.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
     <p style="margin: 0; font-weight: bold;">Researcher</p>
@@ -49,7 +46,6 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
     <p style="margin: 0; font-size: 11px; color: #555;">Mar 2022 - Aug 2023</p>
   </div>
 
-  <!-- Right side -->
   <div style="flex: 1; padding-left: 20px;">
     <ul style="margin: 0; font-size: 11px; color: #333;">
       <li>Studied the assembly of OXPHOS complexes in <em>Saccharomyces cerevisiae</em></li>
@@ -63,7 +59,6 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
   <!-- Circle marker -->
   <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
   
-  <!-- Left side -->
   <div style="margin-left: 40px; flex: 1;">
     <img src="./assets/images/iiser_logo.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
     <p style="margin: 0; font-weight: bold;">BS-MS</p>
@@ -71,7 +66,6 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
     <p style="margin: 0; font-size: 11px; color: #555;">Aug 2016 - Jul 2021</p>
   </div>
 
-  <!-- Right side -->
   <div style="flex: 1; padding-left: 20px;">
     <ul style="margin: 0; font-size: 11px; color: #333;">
       <li>Studied the role of an endosome-associated E3 ubiquitin ligase in mitophagy under the supervision of 
