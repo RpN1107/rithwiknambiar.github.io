@@ -15,6 +15,64 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
 
 ---
 
+<div style="margin-top: 40px;">
+  <h2>Academic Journey</h2>
+  <div style="display: flex; justify-content: space-between; align-items: center; position: relative; margin-top: 20px; flex-wrap: wrap;">
+
+    <!-- Timeline line -->
+    <div style="position: absolute; top: 30px; left: 0; right: 0; height: 2px; background-color: #ccc; z-index: -1;"></div>
+
+    <!-- Timeline points -->
+
+    <!-- Integrated MSc -->
+    <div style="text-align: center; margin: 10px;">
+      <a href="https://www.iisertvm.ac.in/" target="_blank" style="text-decoration: none; color: inherit;">
+        <div style="width: 50px; height: 50px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
+          <img src="/images/logos/iiser_logo.png" alt="IISER Thiruvananthapuram" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <p style="margin: 5px 0 0 0; font-weight: bold;">Integrated MSc</p>
+      </a>
+      <p style="margin: 0;">IISER Thiruvananthapuram</p>
+    </div>
+
+    <!-- PhD (brief) -->
+    <div style="text-align: center; margin: 10px;">
+      <a href="https://www.uib.no/en" target="_blank" style="text-decoration: none; color: inherit;">
+        <div style="width: 50px; height: 50px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
+          <img src="/images/logos/uib-logo.jpg" alt="University of Bergen" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <p style="margin: 5px 0 0 0; font-weight: bold;">PhD (brief)</p>
+      </a>
+      <p style="margin: 0;">University of Bergen</p>
+    </div>
+
+
+    <!-- Professional MSc -->
+    <div style="text-align: center; margin: 10px;">
+      <a href="https://www.iisertirupati.ac.in/" target="_blank" style="text-decoration: none; color: inherit;">
+        <div style="width: 50px; height: 50px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
+          <img src="/images/logos/tirupati-logo-icon.png" alt="IISER Tirupati" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <p style="margin: 5px 0 0 0; font-weight: bold;">Professional MSc</p>
+      </a>
+      <p style="margin: 0;">IISER Tirupati</p>
+    </div>
+
+
+
+    <!-- Current Focus -->
+    <div style="text-align: center; margin: 10px;">
+      <a href="/projects/" target="_blank" style="text-decoration: none; color: inherit;">
+        <div style="width: 50px; height: 50px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
+          <img src="/images/logos/bioinformatics-logo.png" alt="Computational Biology" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <p style="margin: 5px 0 0 0; font-weight: bold;">Current Focus</p>
+      </a>
+      <p style="margin: 0;">Computational Biology & Bioinformatics</p>
+    </div>
+
+  </div>
+</div>
 ## Why Computational Biology?
 
 During my research experience in molecular biology, I became increasingly aware of how rapidly biology is transforming into a data-driven science. Advances in high-throughput sequencing, proteomics, metabolomics, and imaging technologies now generate data at a scale and complexity that cannot be addressed by traditional experimental methods alone. I believe that to truly advance our understanding of life, we must merge the strengths of experimental biology with the analytical power of computational approaches.
