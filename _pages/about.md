@@ -13,72 +13,89 @@ I have just finished a professional master’s in Biological Data Science at the
 
 Following this, I briefly pursued a PhD in Molecular Biology at the University of Bergen, where I worked on understanding the assembly of yeast mitochondrial OXPHOS complexes using mass spectrometry. Although I chose to transition out of the program, the experience strengthened my interest in mitochondria and motivated me to expand my skillset in computational biology. This led me to my current training in data science, machine learning, and large-scale omics analysis.
 
-<div style="margin-top: 40px;">
-  <div style="display: flex; justify-content: space-between; align-items: center; position: relative; margin-top: 20px; flex-wrap: nowrap;">
+<div style="display: flex; flex-direction: column; position: relative; margin-left: 50px;">
 
-    <!-- Timeline line -->
-    <div style="position: absolute; top: 30px; left: 0; right: 0; height: 2px; 
-                background: linear-gradient(to right, #ccc 0%, #ccc calc(100% - 15px), 
-                transparent 100%); 
-                z-index: -1;">
-     <span style="position: absolute; right: 0; top: 50%; transform: translateY(-50%);
-               width: 0; height: 0;
-               border-top: 8px solid transparent; 
-               border-bottom: 8px solid transparent;
-               border-left: 16px solid #ccc;"></span>
-    </div>
-    
-    <!-- Integrated MSc -->
-    <div style="text-align: center; margin: 5px;">
-      <a href="https://www.iisertvm.ac.in/" target="_blank" style="text-decoration: none; color: inherit;">
-        <div style="width: 60px; height: 60px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="./assets/images/iiser_logo.png" alt="IISER Thiruvananthapuram" style="width: 100%; height: 100%; object-fit: cover;">
-        </div>
-        <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 12px;">BS-MS</p>
-      </a>
-      <p style="margin: 0; font-size: 11px;">IISER Thiruvananthapuram</p>
-      <p style="margin: 0; font-size: 10px; color: #555;">Aug 2016 - Jul 2021</p>
-    </div>
+  <!-- Timeline line -->
+  <div style="position: absolute; left: 20px; top: 0; width: 2px; height: 100%; background-color: #ccc;"></div>
 
-    <!-- PhD (brief) -->
-    <div style="text-align: center; margin: 5px;">
-      <a href="https://www.uib.no/en" target="_blank" style="text-decoration: none; color: inherit;">
-        <div style="width: 60px; height: 60px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="./assets/images/uib-logo.png" alt="University of Bergen" style="width: 100%; height: 100%; object-fit: cover;">
-        </div>
-        <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 12px;">PhD (discontinued)</p>
-      </a>
-      <p style="margin: 0; font-size: 11px;">University of Bergen</p>
-      <p style="margin: 0; font-size: 10px; color: #555;">Mar 2022 - Aug 2023</p>
+  <!-- Arrowhead pointing up -->
+  <div style="
+    position: absolute;
+    left: 12px;
+    top: -10px;
+    width: 0; 
+    height: 0; 
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 12px solid #007ACC;
+  "></div>
+  
+  <!-- Milestone: Current Focus -->
+  <div style="position: relative; display: flex; align-items: flex-start; margin-bottom: 40px;">
+    <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
+    <div style="margin-left: 40px;">
+      <img src="./assets/images/bioinformatics-logo.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
+      <p style="margin: 0; font-weight: bold;">Current Focus</p>
+      <p style="margin: 0; font-size: 12px;">Computational Biology</p>
+      <p style="margin: 0; font-size: 11px; color: #555;">2022 - 2025</p>
     </div>
-
-    <!-- Professional MSc -->
-    <div style="text-align: center; margin: 5px;">
-      <a href="https://www.iisertirupati.ac.in/" target="_blank" style="text-decoration: none; color: inherit;">
-        <div style="width: 60px; height: 60px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="./assets/images/tirupati-logo-icon.png" alt="IISER Tirupati" style="width: 100%; height: 100%; object-fit: cover;">
-        </div>
-        <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 12px;">Professional MSc</p>
-      </a>
-      <p style="margin: 0; font-size: 11px;">IISER Tirupati</p>
-      <p style="margin: 0; font-size: 10px; color: #555;">Aug 2024 - Aug 2025</p>
+  </div>
+  
+  <!-- Milestone: Professional MSc -->
+  <div style="position: relative; display: flex; align-items: flex-start; margin-bottom: 40px;">
+    <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
+    <div style="margin-left: 40px;">
+      <img src="./assets/images/tirupati-logo-icon.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
+      <p style="margin: 0; font-weight: bold;">Professional MSc</p>
+      <p style="margin: 0; font-size: 12px;">IISER Tirupati</p>
+      <p style="margin: 0; font-size: 11px; color: #555;">Aug 2024 - Aug 2025</p>
+      <ul style="margin: 5px 0 0 0; padding-left: 20px; font-size: 11px; color: #333;">
+        <li>Developed ML model to classify mitochondrial health</li>
+        <li>Created Subcellular Localization Predictor app</li>
+      </ul>
     </div>
-
-    <!-- Current Focus -->
-    <div style="text-align: center; margin: 5px;">
-      <a href="/projects/" target="_blank" style="text-decoration: none; color: inherit;">
-        <div style="width: 60px; height: 60px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="./assets/images/bioinformatics-logo.png" alt="Computational Biology" style="width: 100%; height: 100%; object-fit: cover;">
-        </div>
-        <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 12px;">Current Focus</p>
-      </a>
-      <p style="margin: 0; font-size: 11px;">Computational Biology & Bioinformatics</p>
-      <p style="margin: 0; font-size: 10px; color: #555;">Aug 2025 - Present</p>
-    </div>
-
   </div>
 </div>
 
+  <!-- Milestone: PhD -->
+  <div style="position: relative; display: flex; align-items: flex-start; margin-bottom: 40px;">
+    <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
+    <div style="margin-left: 40px;">
+      <img src="./assets/images/uib-logo.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
+      <p style="margin: 0; font-weight: bold;">Researcher</p>
+      <p style="margin: 0; font-size: 12px;">University of Bergen</p>
+      <p style="margin: 0; font-size: 11px; color: #555;"> Mar 2022 - Aug 2023</p>
+      <ul style="margin: 5px 0 0 0; padding-left: 20px; font-size: 11px; color: #333;">
+        <li>Studied the assembly of OXPHOS complexes in <em>Saccharomyces cerevisiae </em>
+        </li>
+        <li>Served as a teaching assistant for multiple course (MOL310, MOL222, MOL300) </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+ <!-- Milestone: BSMS-->
+  <div style="position: relative; display: flex; align-items: flex-start; margin-bottom: 40px;">
+    <!-- Bullet -->
+    <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
+    <div style="margin-left: 40px;">
+      <img src="./assets/images/iiser_logo.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
+      <p style="margin: 0; font-weight: bold;">BS MS</p>
+      <p style="margin: 0; font-size: 12px;">IISER Thiruvananthapuram</p>
+      <p style="margin: 0; font-size: 11px; color: #555;">Aug 2016 - Jul 2021</p>
+
+      <!-- Achievements -->
+      <ul style="margin: 5px 0 0 0; padding-left: 20px; font-size: 11px; color: #333;">
+        <li>Recipient of the Innovation in Science Pursuit for Inspired Research (INSPIRE) fellowship </li>
+        <li>Published work in 
+        <a href= "./publications/jcs2020/" style="color: #007ACC; text-decoration: none;">
+        <em>Journal of Cell Sciences</em>
+        </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+    </div>
 
 ---
 
