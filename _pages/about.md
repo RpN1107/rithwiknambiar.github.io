@@ -17,18 +17,6 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
 
   <!-- Timeline line -->
   <div style="position: absolute; left: 20px; top: 0; width: 2px; height: 100%; background-color: #ccc;"></div>
-
-  <!-- Arrowhead pointing up -->
-  <div style="
-    position: absolute;
-    left: 12px;
-    top: -10px;
-    width: 0; 
-    height: 0; 
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-bottom: 12px solid #007ACC;
-  "></div>
   
   <!-- Milestone: Current Focus -->
   <div style="position: relative; display: flex; align-items: flex-start; margin-bottom: 40px;">
