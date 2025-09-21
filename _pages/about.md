@@ -11,7 +11,7 @@ redirect_from:
 
 I have just finished a professional master’s in Biological Data Science at the Indian Institute of Science Education and Research (IISER) Tirupati, where I focused on applying machine learning and data-driven approaches to biological discovery. I began my academic journey with a 5-year integrated master’s in Biology from IISER Thiruvananthapuram, where I developed a strong foundation in cellular and molecular biology and carried out extensive wet-lab research.
 
-Following this, I briefly pursued a PhD in Molecular Biology at the University of Bergen, where I worked on mitochondrial morphology using advanced microscopy and image analysis. Although I chose to transition out of the program, the experience strengthened my interest in mitochondria and motivated me to expand my skillset in computational biology. This led me to my current training in data science, machine learning, and large-scale omics analysis.
+Following this, I briefly pursued a PhD in Molecular Biology at the University of Bergen, where I worked on understanding the assembly of yeast mitochondrial OXPHOS complexes using mass spectrometry. Although I chose to transition out of the program, the experience strengthened my interest in mitochondria and motivated me to expand my skillset in computational biology. This led me to my current training in data science, machine learning, and large-scale omics analysis.
 
 ---
 
