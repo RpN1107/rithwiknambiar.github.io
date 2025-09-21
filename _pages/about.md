@@ -17,13 +17,17 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
   <div style="display: flex; justify-content: space-between; align-items: center; position: relative; margin-top: 20px; flex-wrap: nowrap;">
 
     <!-- Timeline line -->
-    <div style="position: absolute; top: 30px; left: 0; right: 0; height: 2px; background-color: #ccc; z-index: -1;"></div>
-
+    <div style="position: absolute; top: 30px; left: 0; right: 0; height: 2px; background-color: #ccc; z-index: -1;">
+      <span style="position: absolute; right: 0; width: 0; height: 0;
+               border-top: 5px solid transparent; border-bottom: 5px solid transparent;
+               border-left: 10px solid #ccc;"></span>
+    </div>
+    
     <!-- Integrated MSc -->
     <div style="text-align: center; margin: 5px;">
       <a href="https://www.iisertvm.ac.in/" target="_blank" style="text-decoration: none; color: inherit;">
         <div style="width: 40px; height: 40px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="/assets/images/iiser_logo.png" alt="IISER Thiruvananthapuram" style="width: 100%; height: 100%; object-fit: cover;">
+          <img src="./assets/images/iiser_logo.png" alt="IISER Thiruvananthapuram" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
         <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 12px;">BS-MS</p>
       </a>
@@ -35,9 +39,9 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
     <div style="text-align: center; margin: 5px;">
       <a href="https://www.uib.no/en" target="_blank" style="text-decoration: none; color: inherit;">
         <div style="width: 40px; height: 40px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="/assets/images/uib-logo.jpg" alt="University of Bergen" style="width: 100%; height: 100%; object-fit: cover;">
+          <img src="./assets/images/uib-logo.png" alt="University of Bergen" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
-        <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 12px;">PhD (brief)</p>
+        <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 12px;">PhD (discontinued)</p>
       </a>
       <p style="margin: 0; font-size: 11px;">University of Bergen</p>
       <p style="margin: 0; font-size: 10px; color: #555;">Mar 2022 - Aug 2023</p>
@@ -47,7 +51,7 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
     <div style="text-align: center; margin: 5px;">
       <a href="https://www.iisertirupati.ac.in/" target="_blank" style="text-decoration: none; color: inherit;">
         <div style="width: 40px; height: 40px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="/assets/images/tirupati-logo-icon.png" alt="IISER Tirupati" style="width: 100%; height: 100%; object-fit: cover;">
+          <img src="./assets/images/tirupati-logo-icon.png" alt="IISER Tirupati" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
         <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 12px;">Professional MSc</p>
       </a>
@@ -59,7 +63,7 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
     <div style="text-align: center; margin: 5px;">
       <a href="/projects/" target="_blank" style="text-decoration: none; color: inherit;">
         <div style="width: 40px; height: 40px; border-radius: 50%; margin: 0 auto; overflow: hidden; border: 2px solid #007ACC;">
-          <img src="/assets/images/bioinformatics-logo.png" alt="Computational Biology" style="width: 100%; height: 100%; object-fit: cover;">
+          <img src="./assets/images/bioinformatics-logo.png" alt="Computational Biology" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
         <p style="margin: 3px 0 0 0; font-weight: bold; font-size: 12px;">Current Focus</p>
       </a>
