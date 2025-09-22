@@ -119,4 +119,4 @@ I enjoy [singing](https://www.instagram.com/the_singing_gypsy/), reading widely,
 
 ---
 
-Feel free to [contact me](mailto:rithwikrar98@gmail.com) or explore my [projects](/rithwiknambiar.github.io/projects/) and [CV](/rithwiknambiar.github.io/CV.pdf).
+Feel free to [contact me](mailto:rithwikrar98@gmail.com) or explore my [projects](/rithwiknambiar.github.io/projects/) and [CV](/rithwiknambiar.github.io/CV_2025.pdf).
