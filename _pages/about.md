@@ -9,9 +9,9 @@ redirect_from:
 
 ## My Academic Journey
 
-I recently completed a professional master’s in Biological Data Science at the Indian Institute of Science Education and Research (IISER) Tirupati, where I focused on applying machine learning and data-driven approaches to biological discovery. My academic journey began with a 5-year integrated master’s in Biology at IISER Thiruvananthapuram, where I built a strong foundation in cellular and molecular biology and carried out extensive wet-lab research.
+I recently completed a professional master’s in Biological Data Science at IISER Tirupati, where I applied machine learning and data-driven approaches to biological discovery. Before this, I earned a 5-year integrated master’s in Biology at IISER Thiruvananthapuram, gaining a strong foundation in molecular and cellular biology through extensive wet-lab research.
 
-Following this, I briefly pursued a PhD in Molecular Biology at the University of Bergen, where I investigated the assembly of yeast mitochondrial OXPHOS complexes using mass spectrometry. Although I chose to transition out of the program, this experience deepened my interest in mitochondria and motivated me to expand my skillset in computational biology. This led me to pursue advanced training in data science, machine learning, and large-scale omics analysis.
+I then pursued a PhD at the University of Bergen, studying yeast mitochondrial OXPHOS complex assembly with mass spectrometry. Though I transitioned out of the program, the experience deepened my interest in mitochondria and pushed me toward computational biology. This shift led me to advanced training in data science, machine learning, and large-scale omics analysis, building on my molecular biology background.
 
 <!-- Timeline wrapper -->
 <div style="position: relative; margin-left: 50px;">
@@ -93,15 +93,13 @@ Following this, I briefly pursued a PhD in Molecular Biology at the University o
 
 </div>
 
-
-
 ---
 
 ## Why Computational Biology?
 
-During my research experience in molecular biology, I became increasingly aware of how rapidly biology is transforming into a data-driven science. Advances in high-throughput sequencing, proteomics, metabolomics, and imaging technologies now generate data at a scale and complexity that cannot be addressed by traditional experimental methods alone. I believe that to truly advance our understanding of life, we must merge the strengths of experimental biology with the analytical power of computational approaches.
+Biology is rapidly becoming data-driven, with sequencing, proteomics, and imaging producing vast, complex datasets that traditional experiments alone cannot address. I believe progress depends on uniting experimental biology with computational methods.
 
-Bioinformatics and data science make it possible to uncover hidden patterns in complex datasets, build predictive models of biological systems, and integrate multiple layers of omics data into a unified view of cellular function. For me, this fusion of wet-lab biology and computation is not just complementary but essential for answering the next generation of biological questions.
+My dual background enables me to bridge this gap — interpreting data with a biologist’s intuition while developing tools for deeper insight. This integration of wet-lab and dry-lab expertise is my core strength, allowing me to contribute to both hypothesis-driven experiments and large-scale analyses.
 
 ---
 
