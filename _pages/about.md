@@ -24,7 +24,9 @@ I then pursued a PhD at the University of Bergen, studying yeast mitochondrial O
     <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
     
     <div style="margin-left: 40px; flex: 1;">
+      <a href="https://www.iisertvm.ac.in/" target="_blank">
       <img src="./assets/images/iiser_logo.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
+      </a>
       <p style="margin: 0; font-weight: bold;">BS-MS</p>
       <p style="margin: 0; font-size: 12px;">IISER Thiruvananthapuram</p>
       <p style="margin: 0; font-size: 11px; color: #555;">Aug 2016 - Jul 2021</p>
@@ -54,7 +56,9 @@ I then pursued a PhD at the University of Bergen, studying yeast mitochondrial O
     <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
     
     <div style="margin-left: 40px; flex: 1;">
+      <a href="https://www.uib.no/en" target="_blank">
       <img src="./assets/images/uib-logo.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
+      </a>
       <p style="margin: 0; font-weight: bold;">Researcher</p>
       <p style="margin: 0; font-size: 12px;">University of Bergen</p>
       <p style="margin: 0; font-size: 11px; color: #555;">Mar 2022 - Aug 2023</p>
@@ -75,7 +79,9 @@ I then pursued a PhD at the University of Bergen, studying yeast mitochondrial O
     
     <!-- Left side -->
     <div style="margin-left: 40px; flex: 1;">
+      <a href="https://www.iisertirupati.ac.in/" target="_blank">
       <img src="./assets/images/tirupati-logo-icon.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
+      </a>
       <p style="margin: 0; font-weight: bold;">Professional MSc</p>
       <p style="margin: 0; font-size: 12px;">IISER Tirupati</p>
       <p style="margin: 0; font-size: 11px; color: #555;">Aug 2024 - Aug 2025</p>
