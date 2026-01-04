@@ -11,7 +11,7 @@ redirect_from:
 
 I recently completed a professional master’s in Biological Data Science at IISER Tirupati, where I applied machine learning and data-driven approaches to biological discovery. Before this, I earned a 5-year integrated master’s in Biology at IISER Thiruvananthapuram, gaining a strong foundation in molecular and cellular biology through extensive wet-lab research.
 
-I then pursued a PhD at the University of Bergen, studying yeast mitochondrial OXPHOS complex assembly with mass spectrometry. Though I transitioned out of the program, the experience deepened my interest in mitochondria and pushed me toward computational biology. This shift led me to advanced training in data science, machine learning, and large-scale omics analysis, building on my molecular biology background.
+I then pursued a PhD at the University of Bergen, studying yeast mitochondrial OXPHOS complex assembly with mass spectrometry. Though I transitioned out of the program, the experience deepened my interest in mitochondria and pushed me toward computational biology. This shift led me to advanced training in data science, machine learning, and computational approaches, building on my molecular biology background.
 
 <!-- Timeline wrapper -->
 <div style="position: relative; margin-left: 50px;">
@@ -92,6 +92,29 @@ I then pursued a PhD at the University of Bergen, studying yeast mitochondrial O
       <ul style="margin: 0; font-size: 11px; color: #333;">
         <li>Developed an ML model to classify mitochondrial health</li>
         <li>Created a Subcellular Localization Predictor app</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Milestone: PhD -->
+  <div style="position: relative; display: flex; align-items: flex-start; margin-bottom: 40px;">
+    <!-- Circle marker -->
+    <div style="position: absolute; left: 11px; top: 0; width: 18px; height: 18px; border-radius: 50%; background-color: #007ACC;"></div>
+    
+    <!-- Left side -->
+    <div style="margin-left: 40px; flex: 1;">
+      <a href="https://www.iisertirupati.ac.in/" target="_blank">
+      <img src="./assets/images/tirupati-logo-icon.png" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
+      </a>
+      <p style="margin: 0; font-weight: bold;">PhD in Computational Biology</p>
+      <p style="margin: 0; font-size: 12px;">IISER Tirupati</p>
+      <p style="margin: 0; font-size: 11px; color: #555;">Jan 2026 - *present*</p>
+    </div>
+
+    <!-- Right side -->
+    <div style="flex: 1; padding-left: 20px;">
+      <ul style="margin: 0; font-size: 11px; color: #333;">
+        <li>Developing computational approaches to understand intrinsically disordered proteins</li>
       </ul>
     </div>
   </div>
