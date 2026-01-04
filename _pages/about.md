@@ -108,7 +108,7 @@ I then pursued a PhD at the University of Bergen, studying yeast mitochondrial O
       </a>
       <p style="margin: 0; font-weight: bold;">PhD in Computational Biology</p>
       <p style="margin: 0; font-size: 12px;">IISER Tirupati</p>
-      <p style="margin: 0; font-size: 11px; color: #555;">Jan 2026 - *present*</p>
+      <p style="margin: 0; font-size: 11px; color: #555;">Jan 2026 - <i>Present</i></p>
     </div>
 
     <!-- Right side -->
