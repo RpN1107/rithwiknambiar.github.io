@@ -1,12 +1,15 @@
 # 👋 Hi, I'm Rithwik Nambiar
 
-🎓 **Master’s Student in Biological Data Science**  
+🎓 **PhD Student in Computational Biology**  
 🧬 **Molecular Biologist turned Computational Biologist**  
 🌐 [rithwiknambiar.github.io](https://rithwiknambiar.github.io) • 📧 [rithwikrar98@gmail.com](mailto:rithwikrar98@gmail.com)
 
 ---
 
 ## 🧭 Academic Journey
+
+- **PhD in Computational Biology**, IISER Tirupati (2025–_present_)  
+  – Developing computational approaches to understand disordered proteins with Dr. Rajeswari Appadurai
 
 - **Professional MSc in Biological Data Science**, IISER Tirupati (2024–2025)  
   – Developed ML models to classify mitochondrial health  
