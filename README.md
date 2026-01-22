@@ -55,7 +55,6 @@ My dual training in wet-lab and computational biology enables me to **bridge exp
 
 - 🧪 [Projects](https://rithwiknambiar.github.io/projects/)  
 - 📄 [CV (PDF)](https://rithwiknambiar.github.io/CV_2025.pdf)  
-- 📝 [Blog](https://rithwiknambiar.github.io/blog/)  
 - 🌐 [Personal Website](https://rithwiknambiar.github.io)
 
 ---
